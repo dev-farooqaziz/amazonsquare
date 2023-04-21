@@ -1,44 +1,83 @@
 .header {
-    padding: 10px 0;
-    width: 100%;
-    background-color: #fff;
-  }
+  padding: 10px 0;
+  width: 100%;
+  position: absolute;
+  z-index: 9999;
+}
 
-  .header .navBar{
-    align-items: center;
-  }
-  
-  .navMenu {
-    justify-content: flex-end;
-  }
-  
+.header .navBar {
+  align-items: center;
+}
+
+.navMenu {
+  justify-content: flex-end;
+}
+
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: unset;
+  gap: 40px;
+}
+
+.menuLinks {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+  text-transform: capitalize;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+.menuLinks:hover {
+  color: #fd9802;
+}
+
+.menuLinks::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 1px;
+  background-color: #fd9802;
+  height: 2px;
+  width: 0;
+  transition: all 0.5s ease-in-out;
+}
+
+.menuLinks:hover::before {
+  width: 100%;
+}
+
+.navLinks {
+  list-style: none;
+}
+
+.headerTel a {
+  width: 170px;
+  font-size: 14px;
+}
+
+.headerTel a.btnW:hover {
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fd9802;
+}
+
+/* ========= Media Queries ========= */
+
+@media screen and (max-width: 991px) {
   .menu {
     display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    margin-bottom: unset;
-    gap: 40px;
-  }
-  
-  .menuLinks {
-    color: #000;
-    font-size: 14px;
-    font-weight: 500;
-    text-transform: capitalize;
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  .menuLinks:hover {
-    color: #40bee2;
-  }
-  
-  .navLinks {
-    list-style: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 10px;
   }
 
-  .headerTel a{
-    width: max-content;
-    font-size: 14px;
-    padding: 0 10px;
+  .menuLinks {
+    font-size: 18px;
   }
+}

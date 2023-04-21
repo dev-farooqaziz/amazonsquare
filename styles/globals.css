@@ -131,7 +131,7 @@ a:hover {
 }
 
 .font-60 {
-  font-size: 55px;
+  font-size: 60px;
 }
 
 /*===================== font-weight =====================*/
@@ -228,7 +228,7 @@ a:hover {
   display: block;
   border: 0px;
   border-radius: 8px;
-  height: 30px;
+  height: 40px;
   width: 200px;
   font-size: 18px;
   font-weight: 500;
@@ -245,7 +245,7 @@ a:hover {
 
 .homeBtn {
   border-radius: 0;
-  height: 40px;
+  height: 50px;
 }
 
 .btnTrans {
@@ -254,14 +254,27 @@ a:hover {
   border: 1px solid #fd9802;
 }
 
+.btnTrans:hover {
+  background-color: #fd9802;
+  color: #fff;
+}
+
 .btnPrime {
   color: #fff;
   background-color: var(--primary-color);
 }
 
+.btnPrime:hover {
+  background-color: var(--secondary-color);
+}
+
 .btnSecond {
   color: #fff;
   background-color: var(--secondary-color);
+}
+
+.btnSecond:hover {
+  background-color: var(--primary-color);
 }
 
 .btnWhite {

@@ -42,7 +42,7 @@ const Header = () => {
                                     </Link>
                                 </li>
                                 <li className={`${styles.navLinks} ${styles.headerTel}`}>
-                                    <Link className='btns btnWhite' href="#">
+                                    <Link className={`${styles.btnW} btns btnWhite`} href="#">
                                         Get A Proposal
                                     </Link>
                                 </li>
