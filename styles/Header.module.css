@@ -1,0 +1,44 @@
+.header {
+    padding: 10px 0;
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .header .navBar{
+    align-items: center;
+  }
+  
+  .navMenu {
+    justify-content: flex-end;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: unset;
+    gap: 40px;
+  }
+  
+  .menuLinks {
+    color: #000;
+    font-size: 14px;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  .menuLinks:hover {
+    color: #40bee2;
+  }
+  
+  .navLinks {
+    list-style: none;
+  }
+
+  .headerTel a{
+    width: max-content;
+    font-size: 14px;
+    padding: 0 10px;
+  }
