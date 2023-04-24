@@ -231,7 +231,7 @@ a:hover {
   height: 40px;
   width: 200px;
   font-size: 18px;
-  font-weight: 500;
+  font-weight: 400;
   letter-spacing: 1px;
   display: flex;
   align-items: center;
@@ -246,6 +246,13 @@ a:hover {
 .homeBtn {
   border-radius: 0;
   height: 50px;
+}
+
+.bttns{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 30px;
 }
 
 .btnTrans {
@@ -265,6 +272,7 @@ a:hover {
 }
 
 .btnPrime:hover {
+  color: #fff;
   background-color: var(--secondary-color);
 }
 
@@ -274,12 +282,18 @@ a:hover {
 }
 
 .btnSecond:hover {
+  color: #fff;
   background-color: var(--primary-color);
 }
 
 .btnWhite {
   background-color: #fff;
   color: var(--secondary-color);
+}
+
+.btnWhite:hover {
+  color: #fff;
+  background-color: transparent;
 }
 
 /* =============Scrollbar============= */
@@ -322,6 +336,10 @@ a:hover {
 
 .slick-slider img {
   margin: auto;
+}
+
+.secTion {
+  padding: 70px 0;
 }
 
 /* ===================== Media Queries ===================== */
@@ -399,6 +417,25 @@ a:hover {
 
   .font-50 {
     font-size: 40px;
+  }
+
+  .font-60 {
+    font-size: 40px;
+  }
+
+  /* ============================= */
+
+  header .navbar-toggler {
+    background-color: #fff;
+  }
+
+  header .navbar-toggler:focus {
+    box-shadow: none;
+    outline: none;
+  }
+
+  .btns {
+    font-size: 15px;
   }
 }
 

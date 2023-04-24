@@ -2,9 +2,9 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Banner from '@/components/Banner'
 
-
 //image
 import bannerImg from '../public/images/banners/home.png'
+import Roi from '@/components/Roi'
 
 export default function Home() {
 
@@ -45,6 +45,9 @@ export default function Home() {
           banner={item.banner}
         />
       )}
+
+      {/*========= Roi =========*/}
+      <Roi />
 
     </>
   )

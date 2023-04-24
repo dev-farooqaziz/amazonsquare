@@ -5,7 +5,7 @@ import styles from '@/styles/Header.module.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 import { Container } from 'react-bootstrap';
-
+//images
 import logo from '../public/images/logo.png'
 
 
@@ -17,7 +17,7 @@ const Header = () => {
                 <Container>
                     <Navbar expand="lg" className={styles.navBar}>
                         <Link href="/">
-                            <Image className={styles.logo}
+                            <Image className={`${styles.logo} img-fluid`}
                                 src={logo}
                                 alt='Amazon_Square' />
                         </Link>
@@ -37,7 +37,7 @@ const Header = () => {
                                     <Link className={styles.menuLinks} href="/contact">Contact</Link>
                                 </li>
                                 <li className={`${styles.navLinks} ${styles.headerTel}`}>
-                                    <Link className='btns btnTrans' href="tel:(302) 883-8877">
+                                    <Link className={`${styles.btnT} btns btnTrans`} href="tel:(302) 883-8877">
                                         (800) 781-9093
                                     </Link>
                                 </li>

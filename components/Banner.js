@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React from 'react'
 import Image from 'next/image'
 import styles from '@/styles/Banner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
@@ -8,7 +8,7 @@ const Banner = (props) => {
         <>
             <section className={`${styles[props.banner]} bg-second`}>
                 <Container>
-                    <Row>
+                    <Row className={styles.bannerRow}>
                         <Col lg={6} className={styles[props.alignclass]}>
                             <div className={styles.bannerTxt}>
                                 {props.title ?
@@ -78,7 +78,7 @@ const Banner = (props) => {
                             <div className={styles.bannerImg}>
                                 <Image className='img-fluid'
                                     src={props.imageban}
-                                    alt='Best_Publisher'
+                                    alt='Amazon_Square'
                                     priority
                                 />
                             </div>
