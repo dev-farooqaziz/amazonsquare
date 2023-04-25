@@ -1,6 +1,6 @@
 import React from 'react'
 import Link from 'next/link'
-import styles from '@/styles/potential.module.css'
+import styles from '@/styles/Potential.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 //images
 
