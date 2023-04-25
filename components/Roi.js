@@ -5,12 +5,12 @@ import styles from '@/styles/Roi.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 //images
 import one from '../public/images/folds/one.png'
-import roi1 from '../public/images/icons/roi.png'
-import roi2 from '../public/images/icons/optimization.png'
-import roi3 from '../public/images/icons/shipment.png'
-import roi4 from '../public/images/icons/analysis.png'
-import roi5 from '../public/images/icons/copywriting.png'
-import roi6 from '../public/images/icons/benefit.png'
+import icon1 from '../public/images/icons/research.png'
+import icon2 from '../public/images/icons/optimization.png'
+import icon3 from '../public/images/icons/shipment.png'
+import icon4 from '../public/images/icons/analysis.png'
+import icon5 from '../public/images/icons/copywriting.png'
+import icon6 from '../public/images/icons/benefit.png'
 
 
 const Roi = () => {
@@ -38,7 +38,7 @@ const Roi = () => {
                         <Col lg={4}>
                             <div className={styles.roiCard}>
                                 <Image className='img-fluid'
-                                    src={roi1}
+                                    src={icon1}
                                     alt='Amazon_Square'
                                 />
                                 <h5 className='font-18 fw-500 font-second txt-second my-3'>Keyword Research & Analysis</h5>
@@ -48,7 +48,7 @@ const Roi = () => {
                         <Col lg={4}>
                             <div className={styles.roiCard}>
                                 <Image className='img-fluid'
-                                    src={roi2}
+                                    src={icon2}
                                     alt='Amazon_Square'
                                 />
                                 <h5 className='font-18 fw-500 font-second txt-second my-3'>On-page Optimization & Improvemen</h5>
@@ -58,7 +58,7 @@ const Roi = () => {
                         <Col lg={4}>
                             <div className={styles.roiCard}>
                                 <Image className='img-fluid'
-                                    src={roi3}
+                                    src={icon3}
                                     alt='Amazon_Square'
                                 />
                                 <h5 className='font-18 fw-500 font-second txt-second my-3'>Create Shipment & Fba Set-up</h5>
@@ -68,7 +68,7 @@ const Roi = () => {
                         <Col lg={4}>
                             <div className={styles.roiCard}>
                                 <Image className='img-fluid'
-                                    src={roi4}
+                                    src={icon4}
                                     alt='Amazon_Square'
                                 />
                                 <h5 className='font-18 fw-500 font-second txt-second my-3'>Competition Analysis</h5>
@@ -78,7 +78,7 @@ const Roi = () => {
                         <Col lg={4}>
                             <div className={styles.roiCard}>
                                 <Image className='img-fluid'
-                                    src={roi5}
+                                    src={icon5}
                                     alt='Amazon_Square'
                                 />
                                 <h5 className='font-18 fw-500 font-second txt-second my-3'>Copywriting</h5>
@@ -88,7 +88,7 @@ const Roi = () => {
                         <Col lg={4}>
                             <div className={styles.roiCard}>
                                 <Image className='img-fluid'
-                                    src={roi6}
+                                    src={icon6}
                                     alt='Amazon_Square'
                                 />
                                 <h5 className='font-18 fw-500 font-second txt-second my-3'>Benefit Driven Imagery</h5>

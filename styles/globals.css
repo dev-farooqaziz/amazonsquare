@@ -195,7 +195,7 @@ a:hover {
 }
 
 .bg-cta {
-  color: #ffcb7c;
+  background-color: #ffebcc;
 }
 
 /*===================== colors =====================*/
@@ -248,7 +248,7 @@ a:hover {
   height: 50px;
 }
 
-.bttns{
+.bttns {
   display: flex;
   align-items: center;
   justify-content: flex-start;
@@ -340,6 +340,10 @@ a:hover {
 
 .secTion {
   padding: 70px 0;
+}
+
+.bordeRight {
+  border-right: 2px solid #bebebe;
 }
 
 /* ===================== Media Queries ===================== */
@@ -436,6 +440,10 @@ a:hover {
 
   .btns {
     font-size: 15px;
+  }
+
+  .secTion {
+    padding: 50px 0;
   }
 }
 

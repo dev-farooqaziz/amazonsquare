@@ -5,6 +5,12 @@ import Banner from '@/components/Banner'
 //image
 import bannerImg from '../public/images/banners/home.png'
 import Roi from '@/components/Roi'
+import Potential from '@/components/Potential'
+import Buyability from '@/components/Buyability'
+import Photography from '@/components/Photography'
+import Translating from '@/components/Translating'
+import Platform from '@/components/Platform'
+import OneStop from '@/components/OneStop'
 
 export default function Home() {
 
@@ -48,6 +54,24 @@ export default function Home() {
 
       {/*========= Roi =========*/}
       <Roi />
+
+      {/*========= Potential =========*/}
+      <Potential />
+
+      {/*========= Buyability =========*/}
+      <Buyability />
+
+      {/*========= Photography =========*/}
+      <Photography />
+
+      {/*========= Translating =========*/}
+      <Translating />
+
+      {/*========= Platform =========*/}
+      <Platform />
+
+      {/*========= OneStop =========*/}
+      <OneStop />
 
     </>
   )
