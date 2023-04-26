@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import React from 'react'
+import { useRouter } from 'next/router';
 import Link from 'next/link';
 import Image from 'next/image'
 import styles from '@/styles/Header.module.css'
@@ -10,6 +11,9 @@ import logo from '../public/images/logo.png'
 
 
 const Header = () => {
+
+    const router = useRouter();
+    const currentRoute = router.pathname;
 
     return (
         <>
@@ -25,23 +29,27 @@ const Header = () => {
                         <Navbar.Collapse id="basic-navbar-nav" className={styles.navMenu}>
                             <ul className={styles.menu}>
                                 <li className={styles.navLinks}>
-                                    <Link className={styles.menuLinks} href="/">Home</Link>
+                                    <Link className={currentRoute === "/"
+                                        ? "active" : "menuLinks"} href="/">Home</Link>
                                 </li>
                                 <li className={styles.navLinks}>
-                                    <Link className={styles.menuLinks} href="/services">Services</Link>
+                                    <Link className={currentRoute === "/services"
+                                        ? "active" : "menuLinks"} href="/services">Services</Link>
                                 </li>
                                 <li className={styles.navLinks}>
-                                    <Link className={styles.menuLinks} href="/about">About Us</Link>
+                                    <Link className={currentRoute === "/about"
+                                        ? "active" : "menuLinks"} href="/about">About Us</Link>
                                 </li>
                                 <li className={styles.navLinks}>
-                                    <Link className={styles.menuLinks} href="/contact">Contact</Link>
+                                    <Link className={currentRoute === "/contact"
+                                        ? "active" : "menuLinks"} href="/contact">Contact</Link>
                                 </li>
-                                <li className={`${styles.navLinks} ${styles.headerTel}`}>
+                                <li className={`${styles.headerTel}`}>
                                     <Link className={`${styles.btnT} btns btnTrans`} href="tel:(302) 883-8877">
                                         (800) 781-9093
                                     </Link>
                                 </li>
-                                <li className={`${styles.navLinks} ${styles.headerTel}`}>
+                                <li className={`${styles.headerTel}`}>
                                     <Link className={`${styles.btnW} btns btnWhite`} href="#">
                                         Get A Proposal
                                     </Link>

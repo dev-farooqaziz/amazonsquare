@@ -24,7 +24,7 @@ const Banner = (props) => {
                                 }
 
                                 {props.text ?
-                                    <p className='font-16 fw-300 font-second txt-white'>{props.text}</p>
+                                    <p className='font-16 fw-300 font-second txt-white mb-3'>{props.text}</p>
                                     :
                                     ''
                                 }
