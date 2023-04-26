@@ -37,7 +37,7 @@ const Footer = () => {
                         <Col lg={2}>
                             <div className={styles.footerLinks}>
                                 <h3 className='font-16 fw-500 font-second txt-prime'>Services</h3>
-                                <ul className='p-0 m-0 mt-4'>
+                                <ul className='p-0 m-0 mt-2 mt-lg-4'>
                                     <li>
                                         <Link href="/ecommerce-store"
                                             className='font-14 fw-400 font-second txt-white'>
@@ -67,7 +67,7 @@ const Footer = () => {
                         <Col lg={2}>
                             <div className={styles.footerLinks}>
                                 <h3 className='font-16 fw-500 font-second txt-prime'>Platform</h3>
-                                <ul className='p-0 m-0 mt-4'>
+                                <ul className='p-0 m-0 mt-2 mt-lg-4'>
                                     <li>
                                         <Link href="/contact-us"
                                             className='font-14 fw-400 font-second txt-white'>
@@ -92,7 +92,7 @@ const Footer = () => {
                         <Col lg={3}>
                             <div className={styles.footerLinks}>
                                 <h3 className='font-16 fw-500 font-second txt-prime'>Contact</h3>
-                                <ul className='p-0 m-0 mt-4'>
+                                <ul className='p-0 m-0 mt-2 mt-lg-4'>
                                     <li>
                                         <Link href="tel:+1 (408) 689-7746"
                                             className='font-14 fw-400 font-second txt-white'>

@@ -10,10 +10,10 @@ const Proposal = () => {
         <>
             <section className={`${styles.proposal} bg-fold secTion`}>
                 <Container>
-                    <Row>
+                    <Row className={styles.propslRow}>
                         <Col lg={6}>
                             <div className={styles.proposalTxt}>
-                                <h2 className='font-36 fw-500 font-second txt-second mb-4'>
+                                <h2 className='font-36 fw-500 font-second txt-second mb-3 mb-lg-4'>
                                     Request a Proposal
                                 </h2>
                                 <p className='font-16 fw-300 font-second txt-second'>
@@ -27,7 +27,7 @@ const Proposal = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.proposalForm}>
-                                <form className='mx-auto p-4'>
+                                <form className='mx-auto p-lg-4'>
                                     <div className="mb-3">
                                         <input type="text" className="form-control" id="name"
                                             placeholder="Full Name" required />

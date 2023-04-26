@@ -27,7 +27,7 @@ const Platform = () => {
                             <div className={`${styles.platformHead} ms-lg-5 ms-0`}>
                                 <h2 className='font-36 fw-500 font-second txt-white my-4'>"Their Command Of The Amazon Platform Is Truly Second To None."</h2>
                                 <p className='font-16 fw-300 font-second txt-white mb-4'>— AJ PURPURA, SR. KEY ACCTS MGR</p>
-                                <Image className='img-fluid mb-4'
+                                <Image className={`${styles.reBok} img-fluid mb-4`}
                                     src={rebook}
                                     alt='Amazon_Square'
                                 />

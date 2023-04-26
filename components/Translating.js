@@ -16,7 +16,7 @@ const Translating = () => {
         <>
             <section className={`${styles.translating} secTion`}>
                 <Container>
-                    <Row>
+                    <Row className={styles.transRow}>
                         <Col lg={8}>
                             <div className={styles.translatingHead}>
                                 <Image className='img-fluid'

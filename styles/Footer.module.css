@@ -35,3 +35,12 @@
 .footerLinks ul li a:hover {
   color: #fd9802;
 }
+
+
+/* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 991px) {
+  .footerRow{
+    row-gap: 30px;
+  }
+}

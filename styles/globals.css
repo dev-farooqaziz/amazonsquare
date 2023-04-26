@@ -439,6 +439,10 @@ a:hover {
     font-size: 20px;
   }
 
+  .font-26 {
+    font-size: 20px;
+  }
+
   .font-28 {
     font-size: 22px;
   }
@@ -453,6 +457,10 @@ a:hover {
 
   .font-34 {
     font-size: 26px;
+  }
+
+  .font-36 {
+    font-size: 30px;
   }
 
   .font-38 {
@@ -497,6 +505,10 @@ a:hover {
   .secTion {
     padding: 50px 0;
   }
+
+  p {
+    text-align: justify;
+  }
 }
 
 /* ===================== */
@@ -526,6 +538,10 @@ a:hover {
     font-size: 18px;
   }
 
+  .font-26 {
+    font-size: 16px;
+  }
+
   .font-30 {
     font-size: 18px;
   }
@@ -536,6 +552,10 @@ a:hover {
 
   .font-34 {
     font-size: 20px;
+  }
+
+  .font-36 {
+    font-size: 26px;
   }
 
   .font-38 {
@@ -587,6 +607,10 @@ a:hover {
   }
 
   .font-34 {
+    font-size: 20px;
+  }
+
+  .font-36 {
     font-size: 20px;
   }
 

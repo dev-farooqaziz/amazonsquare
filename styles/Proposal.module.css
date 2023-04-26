@@ -7,7 +7,6 @@
 
 .proposalTxt img {
   position: absolute;
-  z-index: 9999;
   left: 0;
   bottom: 0;
   width: 50%;
@@ -45,4 +44,24 @@
   color: #24303e;
   font-family: "Montserrat" sans-serif;
   opacity: 0.6;
+}
+
+/* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 991px) {
+  .proposal {
+    height: auto;
+  }
+
+  .propslRow{
+    row-gap: 30px;
+  }
+
+  .proposalForm {
+    padding-left: 0px;
+  }
+
+  .proposalTxt img {
+    display: none;
+  }
 }

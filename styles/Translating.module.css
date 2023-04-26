@@ -34,14 +34,16 @@
   position: absolute;
   top: 0;
   right: 0;
-  text-align: center;
   width: 35%;
   height: 100%;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .translatingImg img {
   width: 90%;
-  margin-top: 150px;
 }
 
 /* ===================== Media Queries ===================== */
@@ -66,22 +68,24 @@
 }
 
 @media screen and (max-width: 991px) {
-
-    .translating{
-        padding-bottom: 0;
-    }
+  .translating {
+    padding-bottom: 0;
+  }
 
   .translatingImg {
     position: unset;
     text-align: center;
     width: 100%;
     height: auto;
-    margin-top: 20px;
   }
 
   .translatingImg img {
     width: 100%;
     margin-top: 0px;
     padding: 50px 0;
+  }
+
+  .transRow {
+    row-gap: 40px;
   }
 }

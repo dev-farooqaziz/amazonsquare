@@ -24,4 +24,12 @@
   .discover {
     height: auto;
   }
+
+  .wonder {
+    padding: 0;
+  }
+
+  .wonder::before {
+    display: none;
+  }
 }
