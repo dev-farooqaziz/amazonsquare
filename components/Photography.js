@@ -31,7 +31,7 @@ const Photography = () => {
                                     src={two}
                                     alt='Amazon_Square'
                                 />
-                                <h2 className='font-38 fw-500 font-second txt-prime my-3'>Know Product Photography <br /> That Sells</h2>
+                                <h2 className='font-36 fw-500 font-second txt-prime my-3'>Know Product Photography <br /> That Sells</h2>
                                 <p className='font-16 fw-300 font-second txt-white mb-4'>Lift your products higher up in the Amazon Search Engine. Increase your CTR and conversion rate with Product Image Optimization Tips.</p>
                             </div>
                             <div className={styles.photographyRow}>

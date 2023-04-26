@@ -23,7 +23,7 @@ const Translating = () => {
                                     src={two}
                                     alt='Amazon_Square'
                                 />
-                                <h2 className='font-38 fw-500 font-second txt-second my-3'>Translating Good Reviews to Sales</h2>
+                                <h2 className='font-36 fw-500 font-second txt-second my-3'>Translating Good Reviews to Sales</h2>
                                 <p className='font-16 fw-300 font-second txt-second mb-4'>Sales drive your ranking, so we drive your sales up – making your ranking go off-the-charts.</p>
                             </div>
                             <div className={styles.translatingRow}>

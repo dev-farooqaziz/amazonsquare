@@ -23,7 +23,7 @@ const Buyability = () => {
                                     src={two}
                                     alt='Amazon_Square'
                                 />
-                                <h2 className='font-38 fw-500 font-second txt-second my-3'>Translating Buyability to Visibility <br /> with Right Keywords</h2>
+                                <h2 className='font-36 fw-500 font-second txt-second my-3'>Translating Buyability to Visibility <br /> with Right Keywords</h2>
                                 <p className='font-16 fw-300 font-second txt-second mb-4'>Amazon’s search engine’s unique design revolves around enhancing products’ Buyability – as Amazon cares about the buyers and selling to those buyers. Amazon product rankings reflect their intention to enable the most appropriate shopping experience to their buyers – the end goal always being to list the most relevant products for the specific buyer search terms.</p>
                             </div>
                             <div className={styles.buyabilityRow}>

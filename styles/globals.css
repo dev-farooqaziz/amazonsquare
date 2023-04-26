@@ -338,6 +338,11 @@ a:hover {
   margin: auto;
 }
 
+.partners .slick-track {
+  display: flex;
+  align-items: center;
+}
+
 .secTion {
   padding: 70px 0;
 }

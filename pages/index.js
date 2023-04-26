@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
 import Banner from '@/components/Banner'
-
 //image
 import bannerImg from '../public/images/banners/home.png'
+
 import Roi from '@/components/Roi'
 import Potential from '@/components/Potential'
 import Buyability from '@/components/Buyability'
@@ -11,6 +11,9 @@ import Photography from '@/components/Photography'
 import Translating from '@/components/Translating'
 import Platform from '@/components/Platform'
 import OneStop from '@/components/OneStop'
+import Partners from '@/components/Partners'
+import Discover from '@/components/Discover'
+import Proposal from '@/components/Proposal'
 
 export default function Home() {
 
@@ -72,6 +75,15 @@ export default function Home() {
 
       {/*========= OneStop =========*/}
       <OneStop />
+
+      {/*========= Partners =========*/}
+      <Partners />
+
+      {/*========= Discover =========*/}
+      <Discover />
+
+      {/*========= Proposal =========*/}
+      <Proposal />
 
     </>
   )

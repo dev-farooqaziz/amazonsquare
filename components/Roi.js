@@ -25,7 +25,7 @@ const Roi = () => {
                                     src={one}
                                     alt='Amazon_Square'
                                 />
-                                <h2 className='font-30 fw-500 font-second txt-second my-3'>Amazon Search Engine Works Differently than Google Search Engine</h2>
+                                <h2 className='font-36 fw-500 font-second txt-second my-3'>Amazon Search Engine Works Differently than Google Search Engine</h2>
                                 <p className='font-16 fw-300 font-second txt-second'>To increase ROI, you have to understand the internal workings of Amazon Search Engine – how it’s design for the shopper – and how Buyability converts into Visibility.</p>
                                 <div className='bttns mt-3 mb-4'>
                                     <Link className='btns homeBtn btnPrime' href="#">Get A Quote</Link>
