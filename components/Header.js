@@ -33,8 +33,8 @@ const Header = () => {
                                         ? "active" : "menuLinks"} href="/">Home</Link>
                                 </li>
                                 <li className={styles.navLinks}>
-                                    <Link className={currentRoute === "/services"
-                                        ? "active" : "menuLinks"} href="/services">Services</Link>
+                                    <Link className={currentRoute === "/amazon-services"
+                                        ? "active" : "menuLinks"} href="/amazon-services">Services</Link>
                                 </li>
                                 <li className={styles.navLinks}>
                                     <Link className={currentRoute === "/about"

@@ -1,17 +1,18 @@
 import React from 'react'
-import styles from '@/styles/Banner.module.css'
+import Image from 'next/image'
+import styles from '@/styles/Homebanner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
 const Banner = (props) => {
     return (
         <>
-            <section className={`${styles[props.banner]}`}>
+            <section className={`${styles[props.banner]} bg-second`}>
                 <Container>
                     <Row className={styles.bannerRow}>
-                        <Col lg={7}>
+                        <Col lg={12} className={styles[props.alignclass]}>
                             <div className={styles.bannerTxt}>
                                 {props.title ?
-                                    props.title
+                                    <h1 className='font-60 fw-700 font-second txt-white'>{props.title}</h1>
                                     :
                                     ''
                                 }
@@ -64,10 +65,22 @@ const Banner = (props) => {
                                 }
 
                                 {props.discuss ?
-                                    props.discuss
+                                    <div className={`${styles.bttns} mt-3`}>
+                                        {props.discuss}
+                                        {props.homebannernum}
+                                    </div>
                                     :
                                     ''
                                 }
+                            </div>
+                        </Col>
+                        <Col lg={12} className={`${styles.bannImg} ${styles[props.alignclass]}`}>
+                            <div className={styles.bannerImg}>
+                                <Image className='img-fluid'
+                                    src={props.imageban}
+                                    alt='Amazon_Square'
+                                    priority
+                                />
                             </div>
                         </Col>
                     </Row>

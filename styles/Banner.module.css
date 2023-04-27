@@ -1,57 +1,43 @@
-.homeBanner {
-  width: 100%;
-  padding-top: 150px;
-  z-index: 3;
-}
-
-.homeBanner.bannImg {
-  padding-top: 0;
-  margin-top: -3%;
-  z-index: 1;
-}
-
-.homeBanner .bannerTxt {
-  text-align: center;
-  width: 75%;
-  margin: 0 auto;
-}
-
-.homeBanner .bttns {
-  display: flex;
+.bannerRow {
+  justify-content: flex-start;
   align-items: center;
+}
+
+.bannerTxt {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
   justify-content: center;
 }
 
-.homeBanner .bttns a:hover {
+.btnL:hover {
   color: #24303e;
   background-color: #fff;
 }
 
-/* ========= Media Queries ========= */
+.btnW:hover {
+  color: #fff;
+  background-color: #fd9802;
+}
 
-@media screen and (max-width: 991px) {
-  .banner {
-    display: flex;
-    align-items: center;
-    padding-top: 50px;
-  }
+/* ===== serviceBanner ===== */
 
-  .bannerRow {
-    row-gap: 50px;
-  }
+.serviceBanner {
+  background-repeat: no-repeat;
+  background-size: cover !important;
+  background-position: center;
+  background: url(../public/images/banners/service-bg.png);
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-bottom: 20px;
+}
 
-  .homeBanner {
-    width: 100%;
-    padding-top: 0;
-  }
+/* ===================== Media Queries ===================== */
 
-  .homeBanner .bannerTxt {
-    width: 100%;
-  }
-
-  .homeBanner.bannImg {
-    padding-top: 0;
-    margin-top: 0;
-    z-index: 1;
+@media screen and (min-width: 1440px) {
+  .bannerTxt {
+    height: auto;
+    padding: 255px 0;
   }
 }

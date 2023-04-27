@@ -229,8 +229,8 @@ a:hover {
   border: 0px;
   border-radius: 8px;
   height: 40px;
-  width: 200px;
-  font-size: 18px;
+  width: 220px;
+  font-size: 16px;
   font-weight: 400;
   letter-spacing: 1px;
   display: flex;
@@ -253,6 +253,12 @@ a:hover {
   align-items: center;
   justify-content: flex-start;
   gap: 30px;
+}
+
+.btons {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .btnTrans {
@@ -396,6 +402,10 @@ a:hover {
 .menuLinks:hover::before,
 .active:hover::before {
   width: 100%;
+}
+
+.btons:hover img {
+  filter: invert(1);
 }
 
 /* ===================== Media Queries ===================== */

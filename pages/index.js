@@ -1,9 +1,9 @@
 import Head from 'next/head'
 import Link from 'next/link'
-import Banner from '@/components/Banner'
 //image
 import bannerImg from '../public/images/banners/home.png'
-
+//components
+import HomeBanner from '@/components/Homebanner'
 import Roi from '@/components/Roi'
 import Potential from '@/components/Potential'
 import Buyability from '@/components/Buyability'
@@ -43,7 +43,7 @@ export default function Home() {
 
       {/*========= Banner =========*/}
       {bannertext.map((item, i) =>
-        <Banner key={i}
+        <HomeBanner key={i}
           title={item.title}
           subtitle={item.subtitle}
           text={item.text}
