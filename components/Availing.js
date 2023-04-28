@@ -22,7 +22,7 @@ const Availing = () => {
                                 />
                             </div>
                         </Col>
-                        <Col lg={8} className='ps-5'>
+                        <Col lg={8} className='ps-lg-5'>
                             <div className={styles.availingTxt}>
                                 <h3 className='font-22 fw-400 font-prime txt-second'>
                                     Reach More Customers by Availing Our

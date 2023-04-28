@@ -2,17 +2,24 @@ import Head from 'next/head'
 import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/styles/Banner.module.css'
-//components
-import Banner from '@/components/Banner'
 //image
+import bannerImg from '../public/images/banners/service.png'
 import chat from '../public/images/icons/chat.png'
 import call from '../public/images/icons/call.png'
 import Availing from '@/components/Availing'
+//components
+import Banner from '@/components/Banner'
+import Runner from '@/components/Runner'
+import Online from '@/components/Online'
+import Consult from '@/components/Consult'
+import Content from '@/components/Content'
+import Purchasers from '@/components/Purchasers'
+import Testimonial from '@/components/Testimonial'
 
 
 export default function AmazonServices() {
 
-    const newTitle = <h1 className='font-60 fw-500 font-prime txt-white mt-5'>Professional <span className='d-block txt-prime fw-700'>Amazon Marketing</span> Company Online</h1>
+    const newTitle = <h1 className='font-60 fw-400 font-prime txt-white my-4'>Professional <span className='d-block txt-prime fw-700'>Amazon Marketing</span> Company Online</h1>
 
 
     const cta1 =
@@ -32,6 +39,7 @@ export default function AmazonServices() {
             title: newTitle,
             text: 'We offer the top amazon marketing services in California, covering Amazon SEO marketing services, Amazon PPC marketing services, Amazon social media marketing services, and Amazon email marketing services.',
             discuss: cta1,
+            imageban: bannerImg,
             banner: 'serviceBanner'
         }
     ]
@@ -51,12 +59,31 @@ export default function AmazonServices() {
                     title={item.title}
                     text={item.text}
                     discuss={item.discuss}
+                    imageban={item.imageban}
                     banner={item.banner}
                 />
             )}
 
             {/* ========= Availing ========= */}
             <Availing />
+
+            {/* ========= Runner ========= */}
+            <Runner />
+
+            {/* ========= Online ========= */}
+            <Online />
+
+            {/* ========= Consult ========= */}
+            <Consult />
+
+            {/* ========= Content ========= */}
+            <Content />
+
+            {/* ========= Purchasers ========= */}
+            <Purchasers />
+
+            {/* ========= Testimonial ========= */}
+            <Testimonial />
         </>
     )
 }

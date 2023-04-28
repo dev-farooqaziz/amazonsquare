@@ -20,6 +20,54 @@
   background-color: #fd9802;
 }
 
+/* ===== HomeBanner ===== */
+
+.homeBanner {
+  width: 100%;
+  padding-top: 150px;
+  z-index: 3;
+}
+
+.homeBanner.bannImg {
+  padding-top: 0;
+  margin-top: -3%;
+  z-index: 1;
+}
+
+.homeBanner .bannerTxt {
+  text-align: center;
+  width: 75%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.homeBanner .bannerTxt h1 {
+  position: relative;
+  width: 80%;
+  margin: auto;
+}
+
+.homeBanner .bannerTxt h1::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 45px;
+  width: 88%;
+  height: 2px;
+  background-color: #fd9802;
+}
+
+.homeBanner .bttns {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.homeBanner .bttns a:hover {
+  color: #24303e;
+  background-color: #fff;
+}
+
 /* ===== serviceBanner ===== */
 
 .serviceBanner {
@@ -30,14 +78,124 @@
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  padding-bottom: 20px;
+  overflow: hidden;
+  height: 100vh;
+}
+
+.serviceBanner .bannerTxt {
+  width: 100%;
+}
+
+.serviceBanner .bannImg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 50%;
+  padding: 0;
+  margin-right: -10px;
 }
 
 /* ===================== Media Queries ===================== */
 
 @media screen and (min-width: 1440px) {
-  .bannerTxt {
+  .serviceBanner .bannImg {
+    width: 55%;
+  }
+}
+
+@media screen and (min-width: 1366px) {
+  .serviceBanner .bannerTxt {
+    width: 100%;
+    margin-top: 20px;
     height: auto;
-    padding: 255px 0;
+    padding: 110px 0;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .homeBanner .bannerTxt h1 {
+    position: relative;
+    width: 90%;
+    margin: auto;
+  }
+
+  .homeBanner .bannerTxt h1::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 32px;
+    width: 91%;
+    height: 2px;
+    background-color: #fd9802;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .serviceBanner {
+    height: auto;
+  }
+
+  .serviceBanner .bannImg {
+    width: 100%;
+    position: relative;
+  }
+
+  .serviceBanner .bannerTxt {
+    margin-top: 100px;
+    margin-bottom: 40px;
+    height: auto;
+    padding: 0px;
+  }
+
+  .homeBanner .bannerTxt h1 {
+    position: relative;
+    width: 100%;
+    margin: auto;
+  }
+
+  .homeBanner .bannerTxt h1::before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    left: 5px;
+    width: 98%;
+    height: 2px;
+    background-color: #fd9802;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .homeBanner {
+    padding-top: 50px;
+  }
+
+  .homeBanner.bannImg {
+    padding-top: 0;
+    margin-top: -3%;
+    z-index: 1;
+  }
+
+  .homeBanner .bannerTxt {
+    width: 100%;
+    margin-bottom: 50px;
+  }
+
+  .homeBanner .bannerTxt h1 {
+    position: unset;
+    width: 100%;
+    margin: auto;
+  }
+
+  .homeBanner .bannerTxt h1::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .serviceBanner .bannerTxt {
+    margin-top: 50px;
+    margin-bottom: 40px;
+    height: auto;
+    padding: 0px;
   }
 }

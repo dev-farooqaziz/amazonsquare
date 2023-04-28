@@ -3,7 +3,7 @@ import Link from 'next/link'
 //image
 import bannerImg from '../public/images/banners/home.png'
 //components
-import HomeBanner from '@/components/Homebanner'
+import Banner from '@/components/Banner'
 import Roi from '@/components/Roi'
 import Potential from '@/components/Potential'
 import Buyability from '@/components/Buyability'
@@ -19,9 +19,11 @@ export default function Home() {
 
   const cta1 = <Link className='btns homeBtn btnPrime' href="#">Get A Quote</Link>
 
+  const newTitle = <h1 className='font-60 fw-700 font-second txt-white mb-4'>Amazon SEO Services</h1>
+
   const bannertext = [
     {
-      title: 'Amazon SEO Services',
+      title: newTitle,
       subtitle: 'The Fast Lane To Revenue Growth',
       text: 'Amazon Listing Optimization That Encourage Online Shoppers to Buy',
       subtext: 'With our performance-oriented Amazon SEO services, we help your business and your products become the number one pick of buyers worldwide.',
@@ -43,7 +45,7 @@ export default function Home() {
 
       {/*========= Banner =========*/}
       {bannertext.map((item, i) =>
-        <HomeBanner key={i}
+        <Banner key={i}
           title={item.title}
           subtitle={item.subtitle}
           text={item.text}

@@ -1,14 +1,15 @@
 import React from 'react'
+import Image from 'next/image'
 import styles from '@/styles/Banner.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 
 const Banner = (props) => {
     return (
         <>
-            <section className={`${styles[props.banner]}`}>
+            <section className={`${styles[props.banner]} bg-second`}>
                 <Container>
                     <Row className={styles.bannerRow}>
-                        <Col lg={7}>
+                        <Col xl={7} className={styles[props.alignclass]}>
                             <div className={styles.bannerTxt}>
                                 {props.title ?
                                     props.title
@@ -23,7 +24,7 @@ const Banner = (props) => {
                                 }
 
                                 {props.text ?
-                                    <p className='font-16 fw-300 font-second txt-white mb-3'>{props.text}</p>
+                                    <p className='font-16 fw-500 font-second txt-white mb-1'>{props.text}</p>
                                     :
                                     ''
                                 }
@@ -64,10 +65,22 @@ const Banner = (props) => {
                                 }
 
                                 {props.discuss ?
-                                    props.discuss
+                                    <div className={`${styles.bttns} mt-3`}>
+                                        {props.discuss}
+                                        {props.homebannernum}
+                                    </div>
                                     :
                                     ''
                                 }
+                            </div>
+                        </Col>
+                        <Col xl={5} className={`${styles.bannImg} ${styles[props.alignclass]}`}>
+                            <div className={styles.bannerImg}>
+                                <Image className='img-fluid'
+                                    src={props.imageban}
+                                    alt='Amazon_Square'
+                                    priority
+                                />
                             </div>
                         </Col>
                     </Row>

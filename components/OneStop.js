@@ -25,7 +25,7 @@ const OneStop = () => {
                                 <h2 className='font-36 fw-500 font-second txt-second my-4'>ONE-STOP-SHOP FOR AMAZON MARKETING, <br /> SEO & OPTIMISATION</h2>
                                 <p className='font-16 fw-300 font-second txt-second mb-5'>Are you an Amazon seller looking for holistic ways to expand your reach – to scale and grow your business efficiently? Amazon Pro Hub can help. We are Amazon optimization consultants that can enable you with fast and efficient spike in your Amazon product ranking and profitability. Our Amazon SEO experts can get you started with just two things – 1: an Amazon seller account – 2: a product with a potential market. If this sounds like you, Amazon Pro Hub can help boost your rankings like never before. Take a peek into our detailed process and understand how we can turn your Amazon store into Multi-Million making machine.</p>
                             </div>
-                            <Row>
+                            <Row className={styles.oneStopRow}>
                                 <Col lg={4}>
                                     <div className={`${styles.oneStopCard} bordeRight`}>
                                         <Image className='img-fluid'
