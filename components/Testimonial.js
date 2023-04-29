@@ -54,7 +54,7 @@ const Testimonial = () => {
                 <Container>
                     <Row>
                         <Col lg={10} className='mx-auto'>
-                            <div className={`${styles.testimonialHead} pb-5`}>
+                            <div className={`${styles.testimonialHead} pb-0 pb-md-5`}>
                                 <h2 className='font-36 fw-500 font-prime text-black mb-2'>
                                     Hear What Our Customers Have To Say About Us
                                 </h2>
@@ -64,7 +64,7 @@ const Testimonial = () => {
                             </div>
                         </Col>
                         <Col lg={10} className='mx-auto'>
-                            <Slider {...testimonial} className='testimonial'>
+                            <Slider {...testimonial} className='testimonial mb-5'>
                                 {testimonialdata.map((item, i) => {
                                     return (
                                         <div key={i} className={`${styles.testiSlide} mb-5 mb-lg-0`}>

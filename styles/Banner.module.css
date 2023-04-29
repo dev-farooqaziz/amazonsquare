@@ -4,23 +4,28 @@
 }
 
 .bannerTxt {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
-.btnL:hover {
+.homeBanner .btnL:hover,
+.serviceBanner .btnL:hover {
   color: #24303e;
   background-color: #fff;
 }
 
-.btnW:hover {
+.homeBanner .btnW:hover,
+.serviceBanner .btnW:hover {
   color: #fff;
   background-color: #fd9802;
 }
 
 /* ===== HomeBanner ===== */
+
+.banner {
+  background-color: #24303e;
+}
 
 .homeBanner {
   width: 100%;
@@ -51,8 +56,8 @@
   content: "";
   position: absolute;
   bottom: -5px;
-  left: 45px;
-  width: 88%;
+  left: 102px;
+  width: 73%;
   height: 2px;
   background-color: #fd9802;
 }
@@ -83,32 +88,55 @@
 }
 
 .serviceBanner .bannerTxt {
-  width: 100%;
+  margin-top: 20px;
 }
 
 .serviceBanner .bannImg {
   position: absolute;
   right: 0;
   bottom: 0;
-  width: 50%;
   padding: 0;
+  width: 50%;
   margin-right: -10px;
+}
+
+/* ===== MarketingBanner ===== */
+
+.marketingBanner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.marketingBanner .flexStrech {
+  display: flex;
+  align-self: stretch;
+}
+
+.marketingBanner .bannImg {
+  align-items: flex-end;
+  position: absolute;
+  right: 80px;
+  bottom: 0;
+  width: 50%;
 }
 
 /* ===================== Media Queries ===================== */
 
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1600px) {
   .serviceBanner .bannImg {
+    width: 60%;
+  }
+
+  .marketingBanner .bannImg {
     width: 55%;
   }
 }
 
 @media screen and (min-width: 1366px) {
   .serviceBanner .bannerTxt {
-    width: 100%;
     margin-top: 20px;
-    height: auto;
-    padding: 110px 0;
   }
 }
 
@@ -123,14 +151,20 @@
     content: "";
     position: absolute;
     bottom: -5px;
-    left: 32px;
-    width: 91%;
+    left: 85px;
+    width: 77%;
     height: 2px;
     background-color: #fd9802;
   }
 }
 
 @media screen and (max-width: 1024px) {
+  .homeBanner .bannerTxt h1 {
+    position: relative;
+    width: 100%;
+    margin: auto;
+  }
+
   .serviceBanner {
     height: auto;
   }
@@ -143,24 +177,7 @@
   .serviceBanner .bannerTxt {
     margin-top: 100px;
     margin-bottom: 40px;
-    height: auto;
     padding: 0px;
-  }
-
-  .homeBanner .bannerTxt h1 {
-    position: relative;
-    width: 100%;
-    margin: auto;
-  }
-
-  .homeBanner .bannerTxt h1::before {
-    content: "";
-    position: absolute;
-    bottom: -5px;
-    left: 5px;
-    width: 98%;
-    height: 2px;
-    background-color: #fd9802;
   }
 }
 
@@ -189,13 +206,27 @@
   .homeBanner .bannerTxt h1::before {
     display: none;
   }
+
+  .marketingBanner {
+    align-items: flex-start;
+    justify-content: center;
+    height: 100vh;
+  }
+
+  .marketingBanner .bannImg {
+    position: unset;
+    width: 100%;
+    margin-top: 35px;
+  }
+  
 }
 
 @media screen and (max-width: 768px) {
   .serviceBanner .bannerTxt {
     margin-top: 50px;
-    margin-bottom: 40px;
+  }
+
+  .marketingBanner {
     height: auto;
-    padding: 0px;
   }
 }

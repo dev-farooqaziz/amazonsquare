@@ -6,10 +6,10 @@ import { Container, Row, Col } from 'react-bootstrap'
 const Banner = (props) => {
     return (
         <>
-            <section className={`${styles[props.banner]} bg-second`}>
+            <section className={`${styles[props.banner]}`}>
                 <Container>
                     <Row className={styles.bannerRow}>
-                        <Col xl={7} className={styles[props.alignclass]}>
+                        <Col xl={5} className={`${styles[props.alignclass]} ${styles.flexStrech}`}>
                             <div className={styles.bannerTxt}>
                                 {props.title ?
                                     props.title
@@ -24,7 +24,7 @@ const Banner = (props) => {
                                 }
 
                                 {props.text ?
-                                    <p className='font-16 fw-500 font-second txt-white mb-1'>{props.text}</p>
+                                    <p className='font-14 fw-500 font-second txt-white mb-1'>{props.text}</p>
                                     :
                                     ''
                                 }
@@ -38,7 +38,7 @@ const Banner = (props) => {
 
                                 {props.subtext1 ?
 
-                                    <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext1}</p>
+                                    <p className='font-14 fw-500 font-second txt-second mb-1'> {props.subtext1}</p>
                                     :
                                     ''
                                 }
@@ -74,7 +74,7 @@ const Banner = (props) => {
                                 }
                             </div>
                         </Col>
-                        <Col xl={5} className={`${styles.bannImg} ${styles[props.alignclass]}`}>
+                        <Col xl={7} className={`${styles.bannImg} ${styles.flexStrech} ${styles[props.alignclass]}`}>
                             <div className={styles.bannerImg}>
                                 <Image className='img-fluid'
                                     src={props.imageban}

@@ -1,0 +1,24 @@
+.should {
+  display: flex;
+  align-items: center;
+}
+
+.shouldRow{
+    align-items: center;
+}
+
+.shouldImg{
+    width: 90%;
+}
+
+/* ===================== Media Queries ===================== */
+
+@media screen and (max-width: 991px) {
+  .shouldRow {
+    row-gap: 30px;
+  }
+
+  .shouldImg{
+    width: 100%;
+}
+}

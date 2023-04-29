@@ -3,24 +3,25 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/styles/Banner.module.css'
 //image
-import bannerImg from '../public/images/banners/service.png'
+import bannerImg from '../public/images/banners/marketing.png'
 import chat from '../public/images/icons/chat.png'
 import call from '../public/images/icons/call.png'
 //components
 import Banner from '@/components/Banner'
-import Availing from '@/components/Availing'
-import Runner from '@/components/Runner'
-import Online from '@/components/Online'
-import Consult from '@/components/Consult'
-import Content from '@/components/Content'
-import Purchasers from '@/components/Purchasers'
+import ContactFold from '@/components/ContactFold'
+import Wasting from '@/components/Wasting'
+import Rate from '@/components/Rate'
+import Solutions from '@/components/Solutions'
+import Clients from '@/components/Clients'
+import Should from '@/components/Should'
+import Convinced from '@/components/Convinced'
 import Testimonial from '@/components/Testimonial'
 
 
-export default function AmazonServices() {
+export default function AmazonMarketing() {
 
-    const newTitle = <h1 className='font-60 fw-400 font-prime txt-white my-4'>Professional <span className='d-block txt-prime fw-700'>Amazon Marketing</span> Company Online</h1>
-
+    const newTitle = <h1 className='font-60 fw-300 font-prime txt-second mb-4 mt-5'>Make Your
+        <span className='d-block txt-prime fw-700'>Product Visible</span> to A Larger Target Audience</h1>
 
     const cta1 =
         <div className='bttns mt-3'>
@@ -28,7 +29,7 @@ export default function AmazonServices() {
                 <Image className='img-fluid chat' src={chat} alt='Amazon_Square' />
                 Live Chat
             </Link>
-            <Link className={`${styles.btnW} btons btns btnWhite`} href="#">
+            <Link className={`${styles.btnW} btons btns btnSecond`} href="#">
                 <Image className='img-fluid call' src={call} alt='Amazon_Square' />
                 +1 (408) 689-7746
             </Link>
@@ -37,10 +38,10 @@ export default function AmazonServices() {
     const bannertext = [
         {
             title: newTitle,
-            text: 'We offer the top amazon marketing services in California, covering Amazon SEO marketing services, Amazon PPC marketing services, Amazon social media marketing services, and Amazon email marketing services.',
+            subtext1: 'Amazon Square is a pioneering Amazon A++ marketing company that helps sellers, vendors, retailers, and business owners to excel in their businesses. Our A++ marketing approach focuses on corporate earnings, consumer desires, and societal interests. Hire the best Amazon A++ marketing professionals online now!',
             discuss: cta1,
             imageban: bannerImg,
-            banner: 'serviceBanner'
+            banner: 'marketingBanner'
         }
     ]
 
@@ -57,30 +58,33 @@ export default function AmazonServices() {
             {bannertext.map((item, i) =>
                 <Banner key={i}
                     title={item.title}
-                    text={item.text}
+                    subtext1={item.subtext1}
                     discuss={item.discuss}
                     imageban={item.imageban}
                     banner={item.banner}
                 />
             )}
 
-            {/* ========= Availing ========= */}
-            <Availing />
+            {/* ========= ContactFold ========= */}
+            <ContactFold />
 
-            {/* ========= Runner ========= */}
-            <Runner />
+            {/* ========= Wasting ========= */}
+            <Wasting />
 
-            {/* ========= Online ========= */}
-            <Online />
+            {/* ========= Rate ========= */}
+            <Rate />
 
-            {/* ========= Consult ========= */}
-            <Consult />
+            {/* ========= Solutions ========= */}
+            <Solutions />
 
-            {/* ========= Content ========= */}
-            <Content />
+            {/* ========= Clients ========= */}
+            <Clients />
 
-            {/* ========= Purchasers ========= */}
-            <Purchasers />
+            {/* ========= Should ========= */}
+            <Should />
+
+            {/* ========= Excellent ========= */}
+            <Convinced />
 
             {/* ========= Testimonial ========= */}
             <Testimonial />

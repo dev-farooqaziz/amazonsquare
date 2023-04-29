@@ -46,18 +46,6 @@ a:hover {
 
 /*===================== font-size =====================*/
 
-.font-10 {
-  font-size: 10px;
-}
-
-.font-12 {
-  font-size: 12px;
-}
-
-.font-13 {
-  font-size: 13px;
-}
-
 .font-14 {
   font-size: 14px;
 }
@@ -68,6 +56,7 @@ a:hover {
 
 .font-16 {
   font-size: 16px;
+  line-height: 26px;
 }
 
 .font-17 {
@@ -124,6 +113,7 @@ a:hover {
 
 .font-40 {
   font-size: 40px;
+  line-height: 45px;
 }
 
 .font-45 {
@@ -139,7 +129,8 @@ a:hover {
 }
 
 .font-60 {
-  font-size: 60px;
+  font-size: 50px;
+  line-height: 55px;
 }
 
 /*===================== font-weight =====================*/
@@ -370,7 +361,7 @@ a:hover {
 }
 
 .testimonial .slick-dots {
-  bottom: -45px;
+  bottom: -65px;
 }
 
 .secTion {
@@ -428,9 +419,45 @@ a:hover {
   width: 100%;
 }
 
+.menuBlack .menuLinks {
+  color: #000;
+  font-weight: 600;
+}
+
+.menuBlack .btnTrans {
+  background-color: #fd9802;
+}
+
+.menuBlack .btnBlThm:hover {
+  background-color: #24303e !important;
+  color: #fff !important;
+}
+
+.menuBlack .btnWhite {
+  background-color: #24303e;
+  color: #fff;
+}
+
+.menuBlack .btnBlThem:hover {
+  background-color: #fd9802 !important;
+}
+
 .btons:hover img {
   filter: invert(1);
 }
+
+.btons:hover img.chat {
+  filter: invert(0);
+}
+
+.btons img.call {
+  filter: invert(1);
+}
+
+.btons:hover img.call {
+  filter: invert(1);
+}
+
 
 /* ===================== Media Queries ===================== */
 
@@ -508,6 +535,11 @@ a:hover {
   }
 
   /* ================ Changes ================ */
+
+  header.menuBlack{
+    background-color: #fff;
+    border-bottom: 1px solid #fd9802;
+  }
 
   header .navbar-toggler {
     background-color: #fff;
