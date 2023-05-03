@@ -19,11 +19,9 @@ import Testimonial from '@/components/Testimonial'
 
 export default function AmazonServices() {
 
-    // ====== banner title ====== //
     const newTitle = <h1 className='font-60 fw-400 font-prime txt-white my-4'>Professional <span className='d-block txt-prime fw-700'>Amazon Marketing</span> Company Online</h1>
 
 
-    // ====== banner buttons ====== //
     const cta1 =
         <div className='bttns mt-3'>
             <Link className={`${styles.btnL} btons btns btnPrime`} href="#">
@@ -36,9 +34,6 @@ export default function AmazonServices() {
             </Link>
         </div>
 
-
-    // ========================================== //
-
     const bannertext = [
         {
             title: newTitle,
@@ -48,27 +43,6 @@ export default function AmazonServices() {
             banner: 'serviceBanner'
         }
     ]
-
-
-    const runnerFold = [
-        {
-            title: 'Get A Higher Conversion Rate & More Sales with Our Amazon A++ Marketing Services',
-            text: 'We adopt a business-friendly strategy to ensure concrete results and profits in real-time for our clients. Keeping in view the buyers, we provide to building long-term relationships that benefit our clients and us.',
-            cardCount1: '01',
-            cardHead1: 'Marketing Techniques',
-            cardText1: 'AMZ Profs develops custom marketing plans for businesses. Amazon SEO, PPC, and other Amazon Marketing services ensure greater brand exposure and online presence.',
-            cardCount2: '02',
-            cardHead2: 'Product Descriptions',
-            cardText2: 'We guarantee that a product description has all the information a client needs to make an informed purchase choice. After researching the competition, we carefully craft product descriptions.',
-            cardCount3: '03',
-            cardHead3: 'Boost Sales Instantly',
-            cardText3: 'AMZ Profs develops a customized marketing plan for businesses to increase traffic, sales, and revenues. We assist businesses in increasing sales through our effective marketing tactics.',
-            foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
-            runner: 'runner'
-        }
-    ]
-
 
     return (
         <>
@@ -80,7 +54,6 @@ export default function AmazonServices() {
             </Head>
 
             {/* ========= Banner ========= */}
-
             {bannertext.map((item, i) =>
                 <Banner key={i}
                     title={item.title}
@@ -91,56 +64,25 @@ export default function AmazonServices() {
                 />
             )}
 
-
             {/* ========= Availing ========= */}
-
             <Availing />
 
-
             {/* ========= Runner ========= */}
-
-            {runnerFold.map((item, i) =>
-                <Runner key={i}
-                    title={item.title}
-                    text={item.text}
-                    cardCount1={item.cardCount1}
-                    cardHead1={item.cardHead1}
-                    cardText1={item.cardText1}
-                    cardCount2={item.cardCount2}
-                    cardHead2={item.cardHead2}
-                    cardText2={item.cardText2}
-                    cardCount3={item.cardCount3}
-                    cardHead3={item.cardHead3}
-                    cardText3={item.cardText3}
-                    foldDiscuss={item.foldDiscuss}
-                    foldnumber={item.foldnumber}
-                    runner={item.runner}
-                />
-            )}
-
+            <Runner />
 
             {/* ========= Online ========= */}
-
             <Online />
 
-
             {/* ========= Consult ========= */}
-
             <Consult />
 
-
             {/* ========= Content ========= */}
-
             <Content />
 
-
             {/* ========= Purchasers ========= */}
-
             <Purchasers />
 
-
             {/* ========= Testimonial ========= */}
-
             <Testimonial />
         </>
     )

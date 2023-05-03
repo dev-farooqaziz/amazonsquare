@@ -11,6 +11,17 @@
     width: 90%;
 }
 
+.traficSholud .shouldImg{
+  position: relative;
+}
+
+.traficSholud .shouldImg img{
+  position: absolute;
+  left: 0;
+  top: -177px;
+  z-index: -1;
+}
+
 /* ===================== Media Queries ===================== */
 
 @media screen and (max-width: 991px) {

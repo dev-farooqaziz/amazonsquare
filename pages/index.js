@@ -17,9 +17,15 @@ import Proposal from '@/components/Proposal'
 
 export default function Home() {
 
+  // ====== banner title ====== //
+  const newTitle = <h1 className='font-60 fw-700 font-second txt-white mb-4'>Amazon SEO Services</h1>
+
+
+  // ====== banner buttons ====== //
   const cta1 = <Link className='btns homeBtn btnPrime' href="#">Get A Quote</Link>
 
-  const newTitle = <h1 className='font-60 fw-700 font-second txt-white mb-4'>Amazon SEO Services</h1>
+
+  // ========================================== //
 
   const bannertext = [
     {
@@ -44,6 +50,7 @@ export default function Home() {
       </Head>
 
       {/*========= Banner =========*/}
+
       {bannertext.map((item, i) =>
         <Banner key={i}
           title={item.title}
@@ -57,34 +64,54 @@ export default function Home() {
         />
       )}
 
+
       {/*========= Roi =========*/}
+
       <Roi />
 
+
       {/*========= Potential =========*/}
+
       <Potential />
 
+
       {/*========= Buyability =========*/}
+
       <Buyability />
 
+
       {/*========= Photography =========*/}
+
       <Photography />
 
+
       {/*========= Translating =========*/}
+
       <Translating />
 
+
       {/*========= Platform =========*/}
+
       <Platform />
 
+
       {/*========= OneStop =========*/}
+
       <OneStop />
 
+
       {/*========= Partners =========*/}
+
       <Partners />
 
+
       {/*========= Discover =========*/}
+
       <Discover />
 
+
       {/*========= Proposal =========*/}
+
       <Proposal />
 
     </>

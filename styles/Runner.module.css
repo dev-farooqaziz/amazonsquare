@@ -18,7 +18,16 @@
   right: -50px;
   width: 2px;
   background-color: #fff;
-  height: 250px;
+  height: 100%;
+}
+
+.runerCard::after {
+  content: "";
+  position: absolute;
+  left: -50px;
+  width: 2px;
+  background-color: #fff;
+  height: 100%;
 }
 
 .bttns {

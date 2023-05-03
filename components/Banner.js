@@ -9,7 +9,7 @@ const Banner = (props) => {
             <section className={`${styles[props.banner]}`}>
                 <Container>
                     <Row className={styles.bannerRow}>
-                        <Col xl={5} className={`${styles[props.alignclass]} ${styles.flexStrech}`}>
+                        <Col xl={6} className={`${styles[props.alignclass]} ${styles.flexStrech}`}>
                             <div className={styles.bannerTxt}>
                                 {props.title ?
                                     props.title
@@ -31,7 +31,7 @@ const Banner = (props) => {
 
                                 {props.subtext ?
 
-                                    <p className='font-16 fw-300 font-second txt-white'>{props.subtext}</p>
+                                    <p className='font-14 fw-300 font-second txt-white'>{props.subtext}</p>
                                     :
                                     ''
                                 }
@@ -45,7 +45,7 @@ const Banner = (props) => {
 
                                 {props.subtext2 ?
 
-                                    <p className='font-16 fw-300 font-secondary txt-secondary'> {props.subtext2}</p>
+                                    <p className='font-14 fw-300 font-secondary txt-secondary'> {props.subtext2}</p>
                                     :
                                     ''
                                 }
@@ -74,7 +74,7 @@ const Banner = (props) => {
                                 }
                             </div>
                         </Col>
-                        <Col xl={7} className={`${styles.bannImg} ${styles.flexStrech} ${styles[props.alignclass]}`}>
+                        <Col xl={6} className={`${styles.bannImg} ${styles.flexStrech} ${styles[props.alignclass]}`}>
                             <div className={styles.bannerImg}>
                                 <Image className='img-fluid'
                                     src={props.imageban}

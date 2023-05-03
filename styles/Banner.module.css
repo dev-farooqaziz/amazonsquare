@@ -10,15 +10,31 @@
 }
 
 .homeBanner .btnL:hover,
+.enhanceBanner .btnL:hover,
 .serviceBanner .btnL:hover {
   color: #24303e;
   background-color: #fff;
 }
 
 .homeBanner .btnW:hover,
+.enhanceBanner .btnW:hover,
 .serviceBanner .btnW:hover {
   color: #fff;
   background-color: #fd9802;
+}
+
+.enhanceBanner .btnL img,
+.serviceBanner .btnL img,
+.enhanceBanner .btnW img,
+.serviceBanner .btnW img {
+  filter: invert(0);
+}
+
+.enhanceBanner .btnL:hover img,
+.serviceBanner .btnL:hover img,
+.enhanceBanner .btnW:hover img,
+.serviceBanner .btnW:hover img {
+  filter: invert(1);
 }
 
 /* ===== HomeBanner ===== */
@@ -122,6 +138,89 @@
   width: 50%;
 }
 
+/* ===== authorBanner ===== */
+
+.authorBanner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 100vh;
+  background: url(../public/images/banners/author-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.authorBanner .flexStrech {
+  display: flex;
+  align-self: stretch;
+}
+
+.authorBanner .btnP .chat {
+  filter: invert(0);
+}
+
+.authorBanner .btnS .call {
+  filter: invert(1);
+}
+
+/* ===== publishingBanner ===== */
+
+.publishingBanner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #fd9802;
+}
+
+.publishingBanner .btnB .call,
+.publishingBanner .btnW .chat {
+  filter: invert(1);
+}
+
+.publishingBanner .btnB:hover .call,
+.publishingBanner .btnW:hover .chat {
+  filter: invert(0);
+}
+
+.publishingBanner .btnB:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.publishingBanner .btnW:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+/* ===== enhanceBanner ===== */
+
+.enhanceBanner {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #24303e;
+}
+
+.enhanceBanner .flexStrech {
+  display: flex;
+  align-self: stretch;
+}
+
+.enhanceBanner .bannImg {
+  align-items: flex-end;
+  justify-content: center;
+}
+.enhanceBanner .bannImg .bannerImg {
+  text-align: center;
+}
+
+.enhanceBanner .bannImg img {
+  width: 90%;
+}
+
 /* ===================== Media Queries ===================== */
 
 @media screen and (min-width: 1600px) {
@@ -131,6 +230,28 @@
 
   .marketingBanner .bannImg {
     width: 55%;
+  }
+
+  .authorBanner .bannerTxt {
+    margin-bottom: 150px;
+  }
+
+  .authorBanner {
+    height: auto;
+    padding: 250px 0 0;
+  }
+
+  .enhanceBanner .bannerTxt {
+    margin-bottom: 150px;
+  }
+
+  .enhanceBanner {
+    height: auto;
+    padding: 250px 0 0;
+  }
+
+  .enhanceBanner .bannImg img {
+    width: 100%;
   }
 }
 
@@ -218,7 +339,6 @@
     width: 100%;
     margin-top: 35px;
   }
-  
 }
 
 @media screen and (max-width: 768px) {

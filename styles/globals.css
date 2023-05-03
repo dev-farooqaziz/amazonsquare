@@ -291,6 +291,12 @@ a:hover {
   background-color: var(--primary-color);
 }
 
+.btnBlack {
+  background-color: #000;
+  color: #fff;
+  font-weight: 400;
+}
+
 .btnWhite {
   background-color: #fff;
   color: var(--secondary-color);
@@ -458,7 +464,6 @@ a:hover {
   filter: invert(1);
 }
 
-
 /* ===================== Media Queries ===================== */
 
 @media screen and (max-width: 1360px) {
@@ -536,7 +541,7 @@ a:hover {
 
   /* ================ Changes ================ */
 
-  header.menuBlack{
+  header.menuBlack {
     background-color: #fff;
     border-bottom: 1px solid #fd9802;
   }
