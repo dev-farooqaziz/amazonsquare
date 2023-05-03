@@ -210,7 +210,6 @@ const Header = () => {
                                                             <FaLocationArrow />
                                                         </Link> */}
                                                     </div>
-
                                                 </li>
                                             </ul>
                                         </Col>

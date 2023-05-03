@@ -139,9 +139,14 @@
   color: #fd9802;
 }
 
-.megaImgTxt input{
+.megaImgTxt input {
   border-radius: 0;
   border: none;
+}
+
+.megaImgTxt form input:focus {
+  outline: none;
+  box-shadow: none;
 }
 
 /* .expCol{
@@ -151,10 +156,19 @@
   background-position: 95% 100%;
 } */
 
-.expCol button:hover{
+.expCol button {
+  height: 40px;
+}
+
+.expCol button:hover {
   background-color: #ffff;
   color: #000;
   border: none;
+  height: 40px;
+}
+
+.border {
+  padding: 0;
 }
 
 /* ========= Media Queries ========= */
@@ -188,19 +202,19 @@
     display: none;
   }
 
-  .expCol{
+  .expCol {
     display: none;
   }
 
   .menuList {
     gap: 26px;
   }
-  
+
   .megaList {
     height: 100vh;
   }
 
-  .megaList .row{
+  .megaList .row {
     justify-content: space-between;
   }
 }
