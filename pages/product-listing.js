@@ -13,7 +13,6 @@ import Wasting from '@/components/Wasting'
 import Rate from '@/components/Rate'
 import Solutions from '@/components/Solutions'
 import Clients from '@/components/Clients'
-import Should from '@/components/Should'
 import Convinced from '@/components/Convinced'
 import Testimonial from '@/components/Testimonial'
 
