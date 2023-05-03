@@ -79,9 +79,6 @@ export default function AmazonMarketing() {
             {/* ========= Clients ========= */}
             <Clients />
 
-            {/* ========= Should ========= */}
-            <Should />
-
             {/* ========= Excellent ========= */}
             <Convinced />
 
