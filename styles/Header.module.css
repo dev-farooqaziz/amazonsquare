@@ -45,13 +45,15 @@
 .megaList {
   background-color: #fff;
   overflow-x: hidden;
+  overflow: hidden;
   transition: 0.5s;
   position: fixed;
   left: -100%;
   top: 0;
   width: 80%;
   z-index: 9999;
-  border-right: 3px solid #000;
+  height: 100vh;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
 .megaList.openMega {
@@ -169,6 +171,10 @@
 
 .border {
   padding: 0;
+}
+
+.linkCol, .expCol{
+  height: 100vh;
 }
 
 /* ========= Media Queries ========= */

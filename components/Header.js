@@ -78,7 +78,7 @@ const Header = () => {
                                     </div>
 
                                     <Row>
-                                        <Col lg={5} className='px-3 px-md-5'>
+                                        <Col lg={5} className={`${styles.linkCol} px-3 px-md-5`}>
 
                                             <ul className={styles.menuList}>
                                                 <li>
