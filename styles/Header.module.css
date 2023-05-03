@@ -144,12 +144,12 @@
   border: none;
 }
 
-.expCol{
+/* .expCol{
   background: url(../public/images/logo-1.png);
   background-repeat: no-repeat;
   background-size: 30%;
   background-position: 95% 100%;
-}
+} */
 
 .expCol button:hover{
   background-color: #ffff;
