@@ -21,7 +21,7 @@ const Convinced = (props) => {
                                 }
 
                                 {props.text ?
-                                    <p className='font-16 fw-300 font-second txt-white mb-4'>{props.text}</p>
+                                    <p className='font-16 fw-300 font-prime txt-white mb-4'>{props.text}</p>
                                     :
                                     ''
                                 }

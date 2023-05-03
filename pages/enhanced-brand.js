@@ -19,6 +19,8 @@ import Clients from '@/components/Clients'
 import Traffic from '@/components/Traffic'
 import Enhance from '@/components/Enhance'
 import Convinced from '@/components/Convinced'
+import Visitors from '@/components/Visitors'
+import Questions from '@/components/Questions'
 import Testimonial from '@/components/Testimonial'
 
 
@@ -44,8 +46,8 @@ export default function AmazonAuthor() {
 
     // ====== convinced title ====== //
     const convTitle =
-        <h2 className='font-36 fw-700 font-second txt-white mb-4'>
-            HIRE AMAZON BOOK <br /> PUBLISHING EXPERTS <br /> TO EARN FAME IN DAYS
+        <h2 className='font-36 fw-700 font-prime txt-white mb-4'>
+            Choose Us For Your <br /> Amazon Content <br /> Marketing Needs
         </h2>
 
 
@@ -64,16 +66,17 @@ export default function AmazonAuthor() {
 
     const runnerFold = [
         {
-            title: 'What Makes Us a Better Choice for Amazon Author Page Optimization?',
+            title: 'We Create Content that Sells',
+            text: 'At Amazon Square, we have handpicked a team of professional copywriters who create unique yet compelling content for products. We use attention-grabbing graphics to develop enhanced product listings that bring in more customers.',
             cardCount1: '01',
-            cardHead1: 'Continuous Profile Updates',
-            cardText1: 'We at Amazon Square specialize in developing compelling Amazon Author Pages.Being professionals, we produce custom pages for writers while ensuring that your page includes and highlights all of your published works available online. We also produce a captivating author bio to draw customers to your private online bookshop.',
+            cardHead1: 'Points that Make Money',
+            cardText1: 'Our Amazon brand content writers create a professional Amazon Product Listing, complete with bullet points describing the product`s unique selling qualities and keyword optimization to boost product rankings in organic search results.',
             cardCount2: '02',
-            cardHead2: 'Biography and About Us',
-            cardText2: 'After you have published a few books, the community of readers will want to learn more about your portfolio. Therefore, we assist you in creating a biography and an About Us page to inform everyone about your published works and accomplishments. Our competent content developers manage your author`s profile page. We ensure your author profile includes all the vital information about you.',
+            cardHead2: 'Click-Compelling Titles',
+            cardText2: 'Our skilled Amazon copywriters craft compelling headlines that stand out from the pack and persuade consumers to select goods above the competition. We design appealing headlines that lead to high conversions by using accurate keywords.',
             cardCount3: '03',
-            cardHead3: 'Expert Author Page',
-            cardText3: 'Our Amazon-exclusive profile writing services help us stand out amongst our competitors. We employ buzz phrases to engage the readers while enticing them to return for more information. We ensure that the author`s profile has all the pertinent information, including attention-grabbing details.',
+            cardHead3: 'Convey the Benefits',
+            cardText3: 'Our talented writers can create appealing optimized product descriptions for humans and machines that emphasize the advantages. Our staff understands how to showcase the goods in a way that closes the purchase every time.',
             runner: 'runner'
         }
     ]
@@ -124,7 +127,7 @@ export default function AmazonAuthor() {
     const convincedFold = [
         {
             title: convTitle,
-            text: 'We will help the writers to overcome the hassle with our result-oriented approach. Over the years, we have assisted writers helping them to get approved on Amazon and publish their books the right way.',
+            text: 'Our clients love working with us because of our professionalism, guaranteed results, and affordable Amazon marketing services. If you are still not convinced, consider the following statistics:',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             imagfold: convinced,
@@ -160,7 +163,7 @@ export default function AmazonAuthor() {
             <ContactFold />
 
 
-            {/* ========= AccessFold ========= */}
+            {/* ========= BrandFold ========= */}
 
             {brandFold.map((item, i) =>
                 <Brand key={i}
@@ -181,6 +184,7 @@ export default function AmazonAuthor() {
             {runnerFold.map((item, i) =>
                 <Runner key={i}
                     title={item.title}
+                    text={item.text}
                     cardCount1={item.cardCount1}
                     cardHead1={item.cardHead1}
                     cardText1={item.cardText1}
@@ -195,7 +199,7 @@ export default function AmazonAuthor() {
             )}
 
 
-            {/* ========= Promote ========= */}
+            {/* ========= Enhance ========= */}
 
             {enhanceFold.map((item, i) =>
                 <Enhance key={i}
@@ -215,7 +219,7 @@ export default function AmazonAuthor() {
             <Clients />
 
 
-            {/* ========= Centric ========= */}
+            {/* ========= Traffic ========= */}
 
             {trafficFold.map((item, i) =>
                 <Traffic key={i}
@@ -233,7 +237,7 @@ export default function AmazonAuthor() {
             )}
 
 
-            {/* ========= Excellent ========= */}
+            {/* ========= Convinced ========= */}
 
             {convincedFold.map((item, i) =>
                 <Convinced key={i}
@@ -245,6 +249,16 @@ export default function AmazonAuthor() {
                     convinced={item.convinced}
                 />
             )}
+
+
+            {/* ========= Visitors ========= */}
+
+            <Visitors />
+
+
+            {/* ========= Questions ========= */}
+
+            <Questions />
 
 
             {/* ========= Testimonial ========= */}

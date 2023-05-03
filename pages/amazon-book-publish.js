@@ -44,7 +44,7 @@ export default function AmazonAuthor() {
 
     // ====== convinced title ====== //
     const convTitle =
-        <h2 className='font-36 fw-700 font-second txt-white mb-4'>
+        <h2 className='font-36 fw-700 font-prime txt-white mb-4'>
            HIRE AMAZON BOOK <br /> PUBLISHING EXPERTS <br /> TO EARN FAME IN DAYS
         </h2>
 

@@ -37,7 +37,7 @@ const Access = () => {
                                 <p className='font-16 fw-300 font-prime txt-second'>
                                     Authors of all genres, racial origins, and geographical places may create their individual Amazon author profiles with the greatest service available, Amazon Square.
                                 </p>
-                                <div className={`${styles.bttns} mt-5`}>
+                                <div className={`${styles.bttns} bttns mt-5`}>
                                     <Link className='btons btns btnPrime' href="#">
                                         Get a Quote
                                     </Link>

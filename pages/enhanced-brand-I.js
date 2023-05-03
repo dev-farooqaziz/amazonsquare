@@ -6,13 +6,15 @@ import styles from '@/styles/Banner.module.css'
 import bannerImg from '../public/images/banners/attain.png'
 import chat from '../public/images/icons/chat.png'
 import call from '../public/images/icons/call.png'
-import augment from '../public/images/folds/augment.png'
-import game from '../public/images/folds/game.png'
-import convinced from '../public/images/folds/convinced1.png'
+import revenues from '../public/images/folds/revenues.png'
+import extreme from '../public/images/folds/extreme.png'
+import ppc from '../public/images/folds/ppc.png'
+import adwords from '../public/images/folds/adwords.png'
+import convinced from '../public/images/folds/convinced.png'
 //components
 import Banner from '@/components/Banner'
 import ContactFold from '@/components/ContactFold'
-import Access from '@/components/Access'
+import Brand from '@/components/Brand'
 import Runner from '@/components/Runner'
 import Clients from '@/components/Clients'
 import Traffic from '@/components/Traffic'
@@ -24,7 +26,7 @@ import Testimonial from '@/components/Testimonial'
 export default function AmazonAuthor() {
 
     // ====== banner title ====== //
-    const newTitle = <h1 className='font-60 fw-300 font-prime text-black mb-4 mt-5'>Be Known to <br /> Masses Around the Globe With<span className='d-block txt-prime fw-600'>Amazon Author <br /> Page Creation</span></h1>
+    const newTitle = <h1 className='font-60 fw-300 font-prime text-black mb-4 mt-5'>Attain Positive <br /> Return of Ad Spend <br /> with <span className='txt-prime fw-600'>Our Amazon <br /> PPC Services</span></h1>
 
 
     // ====== banner buttons ====== //
@@ -43,8 +45,8 @@ export default function AmazonAuthor() {
 
     // ====== convinced title ====== //
     const convTitle =
-        <h2 className='font-36 fw-700 font-second txt-white mb-4'>
-            HIRE AMAZON BOOK <br /> PUBLISHING EXPERTS <br /> TO EARN FAME IN DAYS
+        <h2 className='font-36 fw-700 font-prime txt-white mb-4'>
+            Why Our Amazon <br /> Services Are Excellent?
         </h2>
 
 
@@ -53,38 +55,65 @@ export default function AmazonAuthor() {
     const bannertext = [
         {
             title: newTitle,
-            subtext1: 'With our custom amazon book publishers and experts, your dream of becoming a famous author turns into reality. We are aware that you may always want to promote your book to a wider audience, and we help you to inch closer to your goal of becoming a publisher on Amazon.',
+            subtext1: 'The marketing landscape of Amazon is constantly evolving, and this is why it is essential to keep your Amazon marketing strategy updated. We have Amazon PPC specialists in our team who ensure seamless execution of Amazon brand guidelines, thereby guaranteeing a brand`s growth.',
             discuss: cta1,
             imageban: bannerImg,
-            banner: 'authorBanner'
+            banner: 'enhanceBannerI'
+        }
+    ]
+
+
+    const brandFold = [
+        {
+            subtitle: 'Our Amazon PPC Agency Establishes Clear Marketing Strategies',
+            title: 'Amazon PPC Ad Campaign',
+            text1: 'You should be aware that Amazon advertising is a challenging procedure before you invest your hard-earned money. Particularly when promoting Amazon-sponsored items, a clear strategy must be used. Many people have resorted to Amazon Profs for its well-known Amazon PPC marketing solutions after trying to connect and advertise things through Amazon. By putting them into practice, we guarantee that the finished campaign will be focused on the consumer, efficient, and built for high financial output.',
+            foldDiscuss: 'Get A Quote',
+            foldnumber: '+1 (408) 689-7746',
+            imagfold: revenues,
+            alignclass: 'brandSholud',
+            should: 'should'
         }
     ]
 
 
     const runnerFold = [
         {
-            title: 'What Makes Us a Better Choice for Amazon Author Page Optimization?',
+            title: 'Increase Brand & Product Awareness with Our Amazon PPC Ad Solutions',
             cardCount1: '01',
-            cardHead1: 'Continuous Profile Updates',
-            cardText1: 'We at Amazon Square specialize in developing compelling Amazon Author Pages.Being professionals, we produce custom pages for writers while ensuring that your page includes and highlights all of your published works available online. We also produce a captivating author bio to draw customers to your private online bookshop.',
+            cardHead1: 'Increase Profits Using Result-Oriented Tactics',
+            cardText1: 'Increase the possibility of your product`s visibility on the first page of search via our proven PPC ad expertise. Discover the best for your business in just a few days.',
             cardCount2: '02',
-            cardHead2: 'Biography and About Us',
-            cardText2: 'After you have published a few books, the community of readers will want to learn more about your portfolio. Therefore, we assist you in creating a biography and an About Us page to inform everyone about your published works and accomplishments. Our competent content developers manage your author`s profile page. We ensure your author profile includes all the vital information about you.',
+            cardHead2: 'Improve Your PPC Campaigns Outcomes',
+            cardText2: 'Interact with our professionals and give us a chance to optimize your ad`s performance. Our team believes in minimum spending while generating maximum sales.',
             cardCount3: '03',
-            cardHead3: 'Expert Author Page',
-            cardText3: 'Our Amazon-exclusive profile writing services help us stand out amongst our competitors. We employ buzz phrases to engage the readers while enticing them to return for more information. We ensure that the author`s profile has all the pertinent information, including attention-grabbing details.',
+            cardHead3: 'Quality Traffic and More Conversions',
+            cardText3: 'Our Amazon PPC services enhance the visibility of your product, thus helping you get more traffic and generate more potential leads that eventually convert into sales.',
             runner: 'runner'
         }
     ]
 
+    const extremeFold = [
+        {
+            imagfold: extreme,
+            title: 'Our PPC Ad Campaigns Give Clients Extreme Levels ',
+            subtitle1: 'of control that bring out positive consequences. We work on demographics that reduce ad spending and boost businesses.',
+            subtitle2: 'Melanie Joshua',
+            subtitle3: 'Lead Amazon Consultant',
+            should: 'should'
+        }
+    ]
 
     const trafficFold = [
         {
-            title: 'Our Amazon Author Page Development Services',
-            text1: 'Augment Your Exposure to Online Search Results.',
+            maintitle2: 'Hire Amazon Pay Per Click Professionals to Execute Commercial Goals',
+            subtitle: 'Boost Sales, Revenues & Profits With Us',
+            title: 'Amazon PPC Experts',
+            text: 'Are you lagging behind the f leading Amazon suppliers? Do you have unique merchandise to stand out among competitors, but you cannot reach out to the right customers? Do you want to be a dominant online wholesaler? All your desires can come true with our Amazon PPC adverts.',
+            text1: 'What is Pay-Per-Click (PPC)? It is an online advertising model in which marketers bid on keywords. When an Amazon client conducts a product search, the sellers who submit the most incredible bids on relevant keywords win the auction. Their product ads appear in their selected location. We give you a full-time Amazon account manager to manage your PPC campaigns, ensuring that you achieve and even surpass your sales goals.',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
-            imagfold: augment,
+            imagfold: ppc,
             alignclass: 'traficSholud',
             should: 'should'
         }
@@ -93,9 +122,11 @@ export default function AmazonAuthor() {
 
     const enhanceFold = [
         {
-            imagfold: game,
-            title: 'Want to Up your Game as an Author?',
-            subtext: 'Your Amazon Author page is your profile page, where visitors can learn more about you, check out the books you`ve authored and published, and browse the library. As an Amazon writer, you should know how things work online, and the stiff competition that persists online as more writers join this incredible platform. Amazon Square is a top-notch Amazon author page creation company leading by example. We have set the bar high with our commitment and dedication to serving our clients like you. The experts in our team manage Amazon author page designing, keeping in view the short-term and long-term goals.',
+            imagfold: adwords,
+            subtitle: 'Improve Your Search Engine Position',
+            title: 'Hire Amazon AdWords Firm Online and Augment your Amazon Ranks',
+            text: 'Our Amazon PPC experts create brand awareness and generate sales with the targeted ads. We select from a list of relevant terms with significant search traffic. We aim to develop a profitable and long-term partnership with you to take advantage of Amazon advertising campaigns tailored specifically for your Amazon business by increasing product searchability and the reach of your products.',
+            text1: 'Contact our Amazon marketing professionals to build a solid online presence and achieve your goals.',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             alignclass: 'traficSholud',
@@ -107,7 +138,7 @@ export default function AmazonAuthor() {
     const convincedFold = [
         {
             title: convTitle,
-            text: 'We will help the writers to overcome the hassle with our result-oriented approach. Over the years, we have assisted writers helping them to get approved on Amazon and publish their books the right way.',
+            text: 'Our clients love working with us because of our professionalism, guaranteed results, and affordable Amazon marketing services. If you are still not convinced, consider the following statistics:',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             imagfold: convinced,
@@ -143,9 +174,20 @@ export default function AmazonAuthor() {
             <ContactFold />
 
 
-            {/* ========= AccessFold ========= */}
+            {/* ========= BrandFold ========= */}
 
-            <Access />
+            {brandFold.map((item, i) =>
+                <Brand key={i}
+                    subtitle={item.subtitle}
+                    title={item.title}
+                    text1={item.text1}
+                    foldDiscuss={item.foldDiscuss}
+                    foldnumber={item.foldnumber}
+                    imagfold={item.imagfold}
+                    alignclass={item.alignclass}
+                    should={item.should}
+                />
+            )}
 
 
             {/* ========= Runner ========= */}
@@ -167,16 +209,15 @@ export default function AmazonAuthor() {
             )}
 
 
-            {/* ========= Traffic ========= */}
+            {/* ========= Extreme ========= */}
 
-            {trafficFold.map((item, i) =>
-                <Traffic key={i}
-                    title={item.title}
-                    text1={item.text1}
-                    foldDiscuss={item.foldDiscuss}
-                    foldnumber={item.foldnumber}
+            {extremeFold.map((item, i) =>
+                <Enhance key={i}
                     imagfold={item.imagfold}
-                    alignclass={item.alignclass}
+                    title={item.title}
+                    subtitle1={item.subtitle1}
+                    subtitle2={item.subtitle2}
+                    subtitle3={item.subtitle3}
                     should={item.should}
                 />
             )}
@@ -187,6 +228,24 @@ export default function AmazonAuthor() {
             <Clients />
 
 
+            {/* ========= Traffic ========= */}
+
+            {trafficFold.map((item, i) =>
+                <Traffic key={i}
+                    maintitle2={item.maintitle2}
+                    subtitle={item.subtitle}
+                    title={item.title}
+                    text={item.text}
+                    text1={item.text1}
+                    foldDiscuss={item.foldDiscuss}
+                    foldnumber={item.foldnumber}
+                    imagfold={item.imagfold}
+                    alignclass={item.alignclass}
+                    should={item.should}
+                />
+            )}
+
+
             {/* ========= Enhance ========= */}
 
             {enhanceFold.map((item, i) =>
@@ -194,7 +253,7 @@ export default function AmazonAuthor() {
                     imagfold={item.imagfold}
                     subtitle={item.subtitle}
                     title={item.title}
-                    subtext={item.subtext}
+                    text={item.text}
                     text1={item.text1}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}

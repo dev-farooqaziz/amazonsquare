@@ -59,7 +59,7 @@ const Enhance = (props) => {
                                 }
 
                                 {props.text ?
-                                    <p className='font-14 fw-300 font-prime text-black'>{props.text}</p>
+                                    <p className='font-14 fw-300 font-prime text-black mb-2'>{props.text}</p>
                                     :
                                     ''
                                 }

@@ -80,8 +80,12 @@ const Traffic = (props) => {
 
                             {props.foldDiscuss ?
                                 <div className='bttns mt-5'>
-                                    <Link className='btns btnPrime' href="#">{props.foldDiscuss}</Link>
-                                    <Link className='btns btnSecond' href="tel:+1 (408) 689-7746"> {props.foldnumber}</Link>
+                                    <Link className='btns btnPrime' href="#">
+                                        {props.foldDiscuss}
+                                    </Link>
+                                    <Link className='btns btnSecond' href="tel:+1 (408) 689-7746">
+                                        {props.foldnumber}
+                                    </Link>
                                 </div>
                                 :
                                 ''

@@ -138,6 +138,10 @@
   width: 50%;
 }
 
+.marketingBanner .bannerTxt {
+  width: 80%;
+}
+
 /* ===== authorBanner ===== */
 
 .authorBanner {
@@ -221,6 +225,23 @@
   width: 90%;
 }
 
+/* ===== enhanceBanner-i ===== */
+
+.enhanceBannerI {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.enhanceBannerI .btnP img {
+  filter: invert(0);
+}
+
+.enhanceBannerI .btnS img {
+  filter: invert(1);
+}
+
 /* ===================== Media Queries ===================== */
 
 @media screen and (min-width: 1600px) {
@@ -228,9 +249,14 @@
     width: 60%;
   }
 
+  /* ======================== */
+
   .marketingBanner .bannImg {
-    width: 55%;
+    width: 50%;
+    right: 120px;
   }
+
+  /* ======================== */
 
   .authorBanner .bannerTxt {
     margin-bottom: 150px;
@@ -240,6 +266,8 @@
     height: auto;
     padding: 250px 0 0;
   }
+
+  /* ======================== */
 
   .enhanceBanner .bannerTxt {
     margin-bottom: 150px;
@@ -253,6 +281,14 @@
   .enhanceBanner .bannImg img {
     width: 100%;
   }
+
+  /* ======================== */
+
+  .enhanceBannerI .bannerTxt {
+    width: 80%;
+  }
+
+  /* ======================== */
 }
 
 @media screen and (min-width: 1366px) {
@@ -285,6 +321,8 @@
     width: 100%;
     margin: auto;
   }
+
+  /* ======================== */
 
   .serviceBanner {
     height: auto;
@@ -328,6 +366,8 @@
     display: none;
   }
 
+  /* ======================== */
+
   .marketingBanner {
     align-items: flex-start;
     justify-content: center;
@@ -339,12 +379,63 @@
     width: 100%;
     margin-top: 35px;
   }
+
+  .marketingBanner .bannerTxt {
+    width: 100%;
+  }
+
+  /* ======================== */
+
+  .authorBanner {
+    height: auto;
+    background: unset;
+  }
+
+  .authorBanner .bannImg {
+    margin-top: 50px;
+  }
+
+  /* ======================== */
+
+  .publishingBanner {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .publishingBanner .bannImg {
+    margin-top: 50px;
+  }
+
+  /* ======================== */
+
+  .enhanceBanner {
+    height: auto;
+  }
+
+  .enhanceBanner .bannImg img {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  /* ======================== */
+
+  .enhanceBannerI {
+    height: auto;
+    padding-bottom: 50px;
+  }
+
+  .enhanceBannerI .bannImg img {
+    width: 100%;
+    margin-top: 50px;
+  }
 }
 
 @media screen and (max-width: 768px) {
   .serviceBanner .bannerTxt {
     margin-top: 50px;
   }
+
+  /* ======================== */
 
   .marketingBanner {
     height: auto;

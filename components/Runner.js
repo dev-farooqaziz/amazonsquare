@@ -10,10 +10,10 @@ const Runner = (props) => {
                 <Container>
                     <Row className='align-items-start justify-content-between text-center'>
                         <Col lg={10} className='mx-auto'>
-                            <div className={`${styles.runnerHead}`}>
+                            <div className={`${styles.runnerHead} mb-5`}>
 
                                 {props.title ?
-                                    <h2 className='font-36 fw-500 font-prime txt-white mb-5'>{props.title}</h2>
+                                    <h2 className='font-36 fw-500 font-prime txt-white'>{props.title}</h2>
                                     :
                                     ''
                                 }

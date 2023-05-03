@@ -51,7 +51,7 @@ export default function AmazonMarketing() {
 
     // ====== convinced title ====== //
     const convTitle =
-        <h2 className='font-36 fw-700 font-second txt-white mb-4'>
+        <h2 className='font-36 fw-700 font-prime txt-white mb-4'>
             Why Our Amazon <br /> Services Are Excellent?
         </h2>
 
@@ -240,7 +240,7 @@ export default function AmazonMarketing() {
                     subtext={item.subtext}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}
-                    wasting={item.wasting}
+                    solutions={item.solutions}
                 />
             )}
 
