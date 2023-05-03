@@ -154,64 +154,65 @@ const Header = () => {
 
                                         </Col>
                                         <Col lg={7} className={`${styles.expCol} bg-prime px-5`}>
+                                            <div className={styles.expList}>
+                                                <div className={styles.megaTitle}>
+                                                    <h5 className='font-30 font-prime text-white mt-4 pt-3'>Our Experts</h5>
+                                                </div>
 
-                                            <div className={styles.megaTitle}>
-                                                <h5 className='font-30 font-prime text-white mt-4 pt-3'>Our Experts</h5>
-                                            </div>
+                                                <ul className={styles.border}>
+                                                    <li className={styles.navlinks}>
 
-                                            <ul className={styles.border}>
-                                                <li className={styles.navlinks}>
+                                                        <div className={`${styles.megaImg} mt-3`}>
+                                                            <Image className='img-fluid'
+                                                                src={avtar1}
+                                                                alt='Amazon_Square'
+                                                            />
+                                                            <Image className='img-fluid'
+                                                                src={avtar2}
+                                                                alt='Amazon_Square'
+                                                            />
+                                                            <Image className='img-fluid'
+                                                                src={avtar3}
+                                                                alt='Amazon_Square'
+                                                            />
+                                                        </div>
 
-                                                    <div className={`${styles.megaImg} mt-3`}>
-                                                        <Image className='img-fluid'
-                                                            src={avtar1}
-                                                            alt='Amazon_Square'
-                                                        />
-                                                        <Image className='img-fluid'
-                                                            src={avtar2}
-                                                            alt='Amazon_Square'
-                                                        />
-                                                        <Image className='img-fluid'
-                                                            src={avtar3}
-                                                            alt='Amazon_Square'
-                                                        />
-                                                    </div>
-
-                                                    <div className={`${styles.megaImgTxt} mt-4`}>
-                                                        <p className='font-16 font-prime text-white fw-400 mb-2'>
-                                                            Book a call with one of our experts
-                                                        </p>
-                                                        <p className='font-16 font-prime text-white fw-400 mb-3'>
-                                                            Book a call with one of our experts get a customized solution by best publishing services Book Writing Experts Is waiting for you to Ask for a Professional Ghostwriter.
-                                                        </p>
-                                                        <form className='mt-3'>
-                                                            <Row>
-                                                                <Col lg={6}>
-                                                                    <div className="mb-3">
-                                                                        <input type="email" className="form-control" id="email" placeholder="example@emaill.com" required />
-                                                                    </div>
-                                                                </Col>
-                                                                <Col lg={6}>
-                                                                    <div className="mb-3">
-                                                                        <input type="tel" className="form-control" id="phone"
-                                                                            placeholder="Phone Number" required />
-                                                                    </div>
-                                                                </Col>
-                                                                <Col lg={6}>
-                                                                    <div>
-                                                                        <button className='btns homeBtn btnSecond mt-2' type="submit">
-                                                                            Book A Free Call
-                                                                        </button>
-                                                                    </div>
-                                                                </Col>
-                                                            </Row>
-                                                        </form>
-                                                        {/* <Link href="/" className='text-white'>Book A Free Call
+                                                        <div className={`${styles.megaImgTxt} mt-4`}>
+                                                            <p className='font-16 font-prime text-white fw-400 mb-2'>
+                                                                Book a call with one of our experts
+                                                            </p>
+                                                            <p className='font-16 font-prime text-white fw-400 mb-3'>
+                                                                Book a call with one of our experts get a customized solution by best publishing services Book Writing Experts Is waiting for you to Ask for a Professional Ghostwriter.
+                                                            </p>
+                                                            <form className='mt-3'>
+                                                                <Row>
+                                                                    <Col lg={6}>
+                                                                        <div className="mb-3">
+                                                                            <input type="email" className="form-control" id="email" placeholder="example@emaill.com" required />
+                                                                        </div>
+                                                                    </Col>
+                                                                    <Col lg={6}>
+                                                                        <div className="mb-3">
+                                                                            <input type="tel" className="form-control" id="phone"
+                                                                                placeholder="Phone Number" required />
+                                                                        </div>
+                                                                    </Col>
+                                                                    <Col lg={6}>
+                                                                        <div>
+                                                                            <button className='btns homeBtn btnSecond mt-2' type="submit">
+                                                                                Book A Free Call
+                                                                            </button>
+                                                                        </div>
+                                                                    </Col>
+                                                                </Row>
+                                                            </form>
+                                                            {/* <Link href="/" className='text-white'>Book A Free Call
                                                             <FaLocationArrow />
                                                         </Link> */}
-                                                    </div>
-                                                </li>
-                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                </ul>
+                                            </div>
                                         </Col>
 
                                         <Col lg={12}>

@@ -173,11 +173,26 @@
   padding: 0;
 }
 
-.linkCol, .expCol{
-  height: 100vh;
-}
-
 /* ========= Media Queries ========= */
+
+@media screen and (min-width: 1440px) {
+  .linkCol,
+  .expCol {
+    height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .menuList {
+    margin-top: -100px;
+  }
+
+  .expList {
+    margin-top: -150px;
+  }
+}
 
 @media screen and (max-width: 991px) {
   .menu {
