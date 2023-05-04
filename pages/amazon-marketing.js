@@ -110,6 +110,7 @@ export default function AmazonMarketing() {
             subtext: 'Lead Amazon Consultant',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
+            alignclass: 'cater',
             solutions: 'solutions'
         }
     ]
@@ -240,6 +241,7 @@ export default function AmazonMarketing() {
                     subtext={item.subtext}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}
+                    alignclass={item.alignclass}
                     solutions={item.solutions}
                 />
             )}

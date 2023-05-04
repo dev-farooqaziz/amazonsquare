@@ -6,12 +6,12 @@ import { Container, Row, Col } from 'react-bootstrap'
 const Rate = (props) => {
     return (
         <>
-            <section className={`${styles[props.rate]} secTion`}>
+            <section className={`${styles[props.rate]} ${styles[props.alirate]} secTion`}>
                 <div className={`${styles.divBef} mx-auto`}></div>
                 <Container>
                     <Row className='align-items-start justify-content-between text-center'>
                         <Col lg={10} className='mx-auto'>
-                            <div className={`${styles.rateHead}`}>
+                            <div className={`${styles.rateHead} mb-0 mb-lg-5`}>
 
                                 {props.rateTitle ?
                                     <h2 className='font-36 fw-500 font-prime txt-second mb-2'>{props.rateTitle}</h2>

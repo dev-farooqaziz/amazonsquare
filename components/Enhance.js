@@ -11,6 +11,47 @@ const Enhance = (props) => {
             <section className={`${styles.should} secTion`}>
                 <Container>
                     <Row className={styles.shouldRow}>
+                        <Col lg={12}>
+                            <div className='text-center'>
+
+                                {props.maintitle0 ?
+
+                                    <h4 className='font-14 fw-500 font-prime text-black'>
+                                        {props.maintitle0}
+                                    </h4>
+                                    :
+                                    ''
+                                }
+
+                                {props.maintitle ?
+
+                                    <h2 className='font-36 fw-700 font-prime text-black mb-0 mb-lg-5'>
+                                        {props.maintitle}
+                                    </h2>
+                                    :
+                                    ''
+                                }
+
+                                {props.maintitle1 ?
+
+                                    <h2 className='font-36 fw-700 font-prime txt-prime mb-0 mb-lg-4'>
+                                        {props.maintitle1}
+                                    </h2>
+                                    :
+                                    ''
+                                }
+
+                                {props.maintitle2 ?
+
+                                    <h4 className='font-14 fw-500 font-prime text-black mb-0 mb-lg-5'>
+                                        {props.maintitle2}
+                                    </h4>
+                                    :
+                                    ''
+                                }
+
+                            </div>
+                        </Col>
                         <Col lg={6} className={`${styles[props.alignclass]}`}>
                             <div className={styles.shouldImg}>
                                 <Image className='img-fluid'
@@ -65,7 +106,61 @@ const Enhance = (props) => {
                                 }
 
                                 {props.text1 ?
-                                    <p className='font-14 fw-500 font-prime text-black'>{props.text1}</p>
+                                    <p className='font-14 fw-500 font-prime text-black mb-2'>{props.text1}</p>
+                                    :
+                                    ''
+                                }
+
+                                {props.text2 ?
+                                    <p className='font-14 fw-300 font-prime text-black mb-2'>{props.text2}</p>
+                                    :
+                                    ''
+                                }
+
+                                {props.text3 ?
+                                    <p className='font-14 fw-300 font-prime text-black mb-2'>{props.text3}</p>
+                                    :
+                                    ''
+                                }
+
+                                {props.mintitle ?
+                                    <h3 className='font-18 fw-600 font-prime text-black'>{props.mintitle}</h3>
+                                    :
+                                    ''
+                                }
+
+                                {props.mintext ?
+                                    <p className='font-14 fw-300 font-prime text-black mb-3'>{props.mintext}</p>
+                                    :
+                                    ''
+                                }
+
+                                {props.mintitle1 ?
+                                    <h3 className='font-18 fw-600 font-prime text-black'>{props.mintitle1}</h3>
+                                    :
+                                    ''
+                                }
+
+                                {props.mintext1 ?
+                                    <p className='font-14 fw-300 font-prime text-black mb-3'>{props.mintext1}</p>
+                                    :
+                                    ''
+                                }
+
+                                {props.mintitle2 ?
+                                    <h3 className='font-18 fw-600 font-prime text-black'>{props.mintitle2}</h3>
+                                    :
+                                    ''
+                                }
+
+                                {props.mintext2 ?
+                                    <p className='font-14 fw-300 font-prime text-black mb-3'>{props.mintext2}</p>
+                                    :
+                                    ''
+                                }
+
+                                {props.mintextbef ?
+                                    <p className='font-14 fw-400 font-prime text-black'>{props.mintextbef}</p>
                                     :
                                     ''
                                 }

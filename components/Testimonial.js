@@ -50,7 +50,7 @@ const Testimonial = () => {
 
     return (
         <>
-            <section className={`${styles.testimonial} secTion`}>
+            <section className={`${styles.testimonial} bg-fold secTion`}>
                 <Container>
                     <Row>
                         <Col lg={10} className='mx-auto'>

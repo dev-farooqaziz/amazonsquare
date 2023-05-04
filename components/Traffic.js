@@ -12,6 +12,16 @@ const Traffic = (props) => {
                     <Row className={styles.shouldRow}>
                         <Col lg={12}>
                             <div className='text-center'>
+
+                                {props.maintitle0 ?
+
+                                    <h4 className='font-14 fw-500 font-prime text-black'>
+                                        {props.maintitle0}
+                                    </h4>
+                                    :
+                                    ''
+                                }
+
                                 {props.maintitle ?
 
                                     <h2 className='font-36 fw-700 font-prime text-black mb-0 mb-lg-5'>
@@ -29,6 +39,7 @@ const Traffic = (props) => {
                                     :
                                     ''
                                 }
+
                             </div>
                         </Col>
                         <Col lg={6}>
@@ -72,6 +83,18 @@ const Traffic = (props) => {
 
                                 {props.text2 ?
                                     <p className='font-14 fw-400 font-prime text-black mb-2'>{props.text2}</p>
+                                    :
+                                    ''
+                                }
+
+                                {props.textbef ?
+                                    <p className='font-14 fw-300 font-prime text-black mb-2'>{props.textbef}</p>
+                                    :
+                                    ''
+                                }
+
+                                {props.textbef2 ?
+                                    <p className='font-14 fw-300 font-prime text-black mb-2'>{props.textbef2}</p>
                                     :
                                     ''
                                 }

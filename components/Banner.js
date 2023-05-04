@@ -9,7 +9,7 @@ const Banner = (props) => {
             <section className={`${styles[props.banner]}`}>
                 <Container>
                     <Row className={styles.bannerRow}>
-                        <Col xl={6} className={`${styles[props.alignclass]} ${styles.flexStrech}`}>
+                        <Col xl={6} className={`${styles[props.alignclass]} ${styles[props.sizeclass]} ${styles.flexStrech}`}>
                             <div className={styles.bannerTxt}>
                                 {props.title ?
                                     props.title

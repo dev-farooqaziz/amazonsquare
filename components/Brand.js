@@ -55,6 +55,18 @@ const Brand = (props) => {
                                     ''
                                 }
 
+                                {props.subtext ?
+                                    <p className='font-14 fw-300 font-prime text-black'>{props.subtext}</p>
+                                    :
+                                    ''
+                                }
+
+                                {props.subtext1 ?
+                                    <p className='font-14 fw-300 font-prime text-black'>{props.subtext1}</p>
+                                    :
+                                    ''
+                                }
+
                             </div>
 
                             {props.foldDiscuss ?
@@ -69,7 +81,7 @@ const Brand = (props) => {
                         </Col>
                         <Col lg={6} className={`${styles[props.alignclass]}`}>
                             <div className={styles.shouldImg}>
-                                <Image className='img-fluid'
+                                <Image className='img-fluid ms-0 ms-lg-5'
                                     src={props.imagfold}
                                     alt='Amazon_Square'
                                 />

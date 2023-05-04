@@ -242,6 +242,69 @@
   filter: invert(1);
 }
 
+/* ===== smmBanner ===== */
+
+.smmBanner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+}
+
+.smmBanner .bannImg img {
+  width: 85%;
+}
+
+/* ===== listingBanner ===== */
+
+.listingBanner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.listingBanner .flexStrech {
+  display: flex;
+  align-self: stretch;
+}
+
+.listingBanner .bannImg {
+  align-items: flex-end;
+  position: absolute;
+  right: 80px;
+  bottom: 0;
+  width: 50%;
+}
+
+.listingBanner .bannerTxt {
+  width: 80%;
+}
+
+/* ===== listingBannerI ===== */
+
+.listBanner{
+  width: 60%;
+}
+
+.listingBannerI {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.listingBannerI .bannImg {
+  width: 40%;
+  margin-top: 60px;
+  text-align: center;
+  margin-left: auto;
+}
+
+/* ===== deepKeyBanner ===== */
+
 /* ===================== Media Queries ===================== */
 
 @media screen and (min-width: 1600px) {
@@ -289,6 +352,11 @@
   }
 
   /* ======================== */
+
+  .smmBanner .bannImg img {
+    width: 100%;
+  }
+
 }
 
 @media screen and (min-width: 1366px) {
@@ -428,6 +496,60 @@
     width: 100%;
     margin-top: 50px;
   }
+
+  /* ======================== */
+
+  .smmBanner {
+    height: auto;
+  }
+
+  .smmBanner .bannImg img {
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  /* ======================== */
+
+  .listingBanner {
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+  }
+
+  .listingBanner .bannImg {
+    position: unset;
+    width: 100%;
+    margin-top: 35px;
+  }
+
+  .listingBanner .bannerTxt {
+    width: 100%;
+  }
+
+
+  /* ======================== */
+
+  .listBanner{
+    width: 100%;
+  }
+
+  .listingBannerI {
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+  }
+
+  .listingBannerI .bannImg {
+    position: unset;
+    width: 100%;
+    margin-top: 35px;
+  }
+
+  .listingBannerI .bannerTxt {
+    width: 100%;
+  }
+
+  /* ======================== */
 }
 
 @media screen and (max-width: 768px) {

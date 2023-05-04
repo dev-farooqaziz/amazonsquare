@@ -8,7 +8,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 const Solutions = (props) => {
     return (
         <>
-            <section className={`${styles[props.solutions]} bg-prime`}>
+            <section className={`${styles[props.solutions]} ${styles[props.alignclass]} bg-prime`}>
                 <Container>
                     <Row className='align-items-center'>
                         <Col lg={5}>
@@ -23,7 +23,7 @@ const Solutions = (props) => {
                             <div className={styles.solutionsTxt}>
 
                                 {props.subtitle ?
-                                    <h3 className='font-18 fw-500 font-prime text-black mb-0'>{props.subtitle}</h3>
+                                    <h3 className='font-16 fw-500 font-prime text-black mb-2'>{props.subtitle}</h3>
                                     :
                                     ''
                                 }
