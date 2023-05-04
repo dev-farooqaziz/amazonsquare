@@ -99,6 +99,13 @@ const Traffic = (props) => {
                                     ''
                                 }
 
+                                {props.mintextbef ?
+                                    <p className='font-14 fw-400 font-prime text-black'>{props.mintextbef}</p>
+                                    :
+                                    ''
+                                }
+
+
                             </div>
 
                             {props.foldDiscuss ?

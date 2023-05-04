@@ -7,8 +7,8 @@ import bannerImg from '../public/images/banners/keyword.png'
 import chat from '../public/images/icons/chat.png'
 import call from '../public/images/icons/call.png'
 import cater from '../public/images/folds/cater.png'
-import profitable from '../public/images/folds/profitable.png'
-import compelling from '../public/images/folds/compelling.png'
+import crucial from '../public/images/folds/crucial.png'
+import relevant from '../public/images/folds/relevant.png'
 import convinced from '../public/images/folds/convinced.png'
 //components
 import Banner from '@/components/Banner'
@@ -25,7 +25,8 @@ import Testimonial from '@/components/Testimonial'
 export default function AmazonMarketing() {
 
     // ====== banner title ====== //
-    const newTitle = <h1 className='font-36 fw-600 font-prime text-black mb-4 mt-5'>Improve Amazon Discoverability <br /> with Our Amazon Product Listing <br /> Optimization Agency</h1>
+    const newTitle = <h1 className='font-36 fw-600 font-prime text-black mb-4 mt-5'>Amazon Keyword Research
+        <br /> Services - Optimize with High- <br /> Performing Keywords</h1>
 
 
     // ====== banner buttons ====== //
@@ -43,13 +44,13 @@ export default function AmazonMarketing() {
 
 
     // ====== Solutions title ====== //
-    const solTitle = <h2 className='font-40 fw-600 font-prime text-white'>Amazon's ever-changing <br /> algorithm makes it complex for <br /> the sellers to keep up with. </h2>
+    const solTitle = <h2 className='font-40 fw-600 font-prime text-white'>On average, our clients saw a 45% increase in the number of potential <span className='text-black'>customers reaching out to them for their products.</span></h2>
 
 
     // ====== convinced title ====== //
     const convTitle =
         <h2 className='font-36 fw-700 font-prime txt-white mb-4'>
-            Why Our Amazon <br /> Services Are Excellent?
+            Great Reasons To Choose <br /> For Amazon Keyword <br /> Research Agency
         </h2>
 
 
@@ -58,27 +59,27 @@ export default function AmazonMarketing() {
     const bannertext = [
         {
             title: newTitle,
-            subtext1: 'The competition on Amazon has become fierce, and only the best listings manage to win the sales. Leverage our product listing optimization service to improve your search rankings, generate higher traffic and amplify your sales.',
+            subtext1: 'Are you looking to amplify the traffic and boost sales by using the right keywords? AMZ Profs offers the best Amazon keyword research services, leveraging cutting-edge tools to skyrocket your sales with optimized listings.',
             discuss: cta1,
             imageban: bannerImg,
             sizeclass: 'listBanner',
-            banner: 'listingBannerI'
+            banner: 'deepKeyBanner'
         }
     ]
 
 
     const rateFold = [
         {
-            rateTitle: 'Stay Ahead of the Competition with Powerful Product Listings',
+            rateTitle: 'HERE`S WHY YOU NEED TO HIRE OUR AMAZON KEYWORD RESEARCH PROFESSIONALS',
             cardCount1: '01',
-            cardHead1: 'Copies That Convert',
-            cardText1: 'More than 87% of the online buyers scroll down to read the product descriptions – this is where product listings rely upon a clear, concise, and crisp sales copy to seal the deal. By incorporating the right keyword(s) in the title and the copy, you can get your product listing placed right in front of the audience.',
+            cardHead1: 'Run Strategic PPC Campaigns',
+            cardText1: 'Amazon keywords are the backbone of purpose-built PPC campaigns and are the determining factor for its success. With our keyword research services, you can bring more sales, target ads better, and improve the overall outcome of your PPC campaign with focused keywords.',
             cardCount2: '02',
-            cardHead2: 'Carefully Placed Keywords',
-            cardText2: 'The backbone of the strategy is to make the product listing searchable on Amazon through the right placement of keywords. Our keyword research team identifies high-performing keywords and our professional writers strategically infuse these keywords into the content to attract more customers.',
+            cardHead2: 'Beneficial, Long-tail Queries',
+            cardText2: 'Enhance the product visibility and your profitability with long-tail keywords. This strategy is quite beneficial in the long run. We identify keywords that improve the chances of your product`s visibility on the first page of Amazon`s search results. With us, you can discover the best keywords for your products in just a few minutes.',
             cardCount3: '03',
-            cardHead3: 'Outstanding Product Titles',
-            cardText3: 'Our Amazon product listing developers know how to convert the features of your products into compelling benefits and utilize these benefits to optimize the product listings for maximum Amazon searchability. We create compelling titles that persuade the visitors to click on the listing.',
+            cardHead3: 'Outperform the Competitors',
+            cardText3: 'When you embed the right keywords in your product`s listing(s), it enhances your product`s visibility. When you hire our Amazon keyword research specialists, you get well-researched keywords that they identify using modern keyword research tools to guarantee more sales and a competitive edge.',
             alirate: 'alirate',
             rate: 'rate'
         }
@@ -89,9 +90,8 @@ export default function AmazonMarketing() {
         {
             imagfold: cater,
             title: solTitle,
-            text: 'We understand this; hence, we have developed the best practices that strictly adhere to Amazon`s product listing criteria."',
-            textName: 'Kenneth Spencer',
-            subtext: 'Vice President – Amazon Marketing',
+            textName: 'Porter Marcus',
+            subtext: 'HEAD OF MARKETING',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             alignclass: 'cater',
@@ -102,14 +102,13 @@ export default function AmazonMarketing() {
 
     const trafficFold = [
         {
-            subtitle: 'Hire Amazon Product Listing Services',
-            title: 'Elevate Your Product`s Ranking To Profitable Heights',
-            text: 'AMZ Profs helps you craft a top Amazon product listing. From curating the launch strategy to evaluating the listings, we ensure the success of your marketing strategy and make amendments wherever necessary to improve the results. Our product listing development service can improve discoverability, generating more sales.',
-            text1: 'Customers use Amazon to look for products to buy. Our Amazon product listing writers take advantage of this by combining buyer persona and cutting-edge SEO techniques to boost conversion rates. As a result, hiring an Amazon copywriter might be helpful to your company in the long term.',
-            text2: 'We create engaging content for product descriptions in a concise form, catering to all the common queries of the buyers to convert more leads into potential sales.',
+            subtitle: 'Witness the Power of Choosing the Right Keywords',
+            title: 'The Use of Appropriate Keywords Is a Crucial Part of Amazon SEO Strategy',
+            text: 'Relevant keywords can assist you in acquiring traffic from Amazon`s real-time customer search requests. An optimized product listing with relevant keywords is more likely to be indexed and appear for search queries linked to your keywords in search results.',
+            mintextbef: 'The higher a product`s ranking in search results, the more sales it will generate. Use well-researched and high-performing keywords to boost the ranking of your products on search engines. Observe the OBVIOUS increase in your sales.',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
-            imagfold: profitable,
+            imagfold: crucial,
             should: 'should'
         }
     ]
@@ -117,16 +116,12 @@ export default function AmazonMarketing() {
 
     const enhanceFold = [
         {
-            maintitle0: 'Improve the Amazon Ranking of Your Products with Our',
-            maintitle1: 'Amazon Product Listing Optimization Services',
-            imagfold: compelling,
-            mintitle: 'In-depth Keyword Research',
-            mintext: 'We have an entire team dedicated to discovering and working on relevant and high-value keywords related to the products and the customers search intent. We identify keywords with a lot of searches but lesser competition, which results in your products ranking faster on Amazon, thereby generating more sales.',
-            mintitle1: 'Compelling & Optimized Content Creation',
-            mintext1: 'We understand that when buyers are looking for any product on Amazon, their goal is to find the product that best fits their needs. Hence, we create compelling product descriptions to demonstrate the benefits of the products coupled with the strategic infusion of keywords.',
-            mintitle2: 'Product Image Optimization',
-            mintext2: 'A picture is worth 1000 words. Images can do what words can`t. When you hire AMZ Profs for your Amazon product listing development, we do not just focus on optimizing the listing; we also optimize the images so that your products show up on the top of search results.',
-            mintextbef: 'As a top Amazon product listing optimization company, we do everything it takes to get your products to get the deserved attention, attainable with keyword usage, compelling content creation, and product image optimization.',
+            titlemin: 'Strategize Your Amazon Marketing Campaign',
+            maintitle: 'Using Relevant Keywords!',
+            imagfold: relevant,
+            title: 'Strategize Your Amazon Marketing CampaignUsing Relevant Keywords! Sell More Using The Right Keywords',
+            subtext: 'Selling on Amazon is all about using the right keywords and optimizing your listings. It improves indexing for a given search term by optimizing your products for Amazon`s search engine. The product listing obtains the greatest discoverability against your selected search term based on the keywords.',
+            mintextbef: 'By using the correct keywords, your listing will be able to "speak in your buyer`s language." Your product gets organically "discoverable" and consequently picked up by a prospective buyer by using the proper keywords in your Amazon product listing(s).',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             should: 'should'
@@ -137,7 +132,7 @@ export default function AmazonMarketing() {
     const convincedFold = [
         {
             title: convTitle,
-            text: 'Our clients love working with us because of our professionalism, guaranteed results, and affordable Amazon marketing services. If you are still not convinced, consider the following statistics:',
+            text: 'We have been in this business for over 20 years, maintaining an impressive record of improving products’ visibility by using the right keywords. Our keyword planning strategy has helped many businesses achieve superior conversion rates.',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             imagfold: convinced,
@@ -148,10 +143,9 @@ export default function AmazonMarketing() {
 
     const formFold = [
         {
-            subtitle: 'Our Amazon Product Listing Developers',
-            title: 'Identify & Address The Pain Points Of The Buyers',
-            text: 'Being an Amazon seller, if you want to get your brand and products noticed by Amazon`s algorithm, you need to recognize the customers pain points and address these issues through your products. AMZ Profs can help you in this regard. As a top-rated Amazon services provider, we are well-aware of the intricacies of the Amazon platform, paying keen attention to details, and willing to keep up with the evolving algorithms. With a fully-optimized product listing, our Amazon product listing designing agency can push your product listing to the top of Amazon`s search results.',
-            subtext: 'We know how to list your products to drive more sales and even get your product ranked as the best-selling product. We evolve as the guidelines change and stay relevant by curating an effective launch strategy that drives organic traffic. Putting up well-constructed listings increases the chances of the shoppers finding your product, explaining your product in detail that highlights the product`s best features and gives the potential buyers reason to buy your product.',
+            subtitle: 'CONQUER THE AMAZON MARKETPLACE',
+            title: 'DEEP KEYWORD RESEARCH',
+            text: 'We make sure that interaction with the target market for your Amazon business is simple. When selling on Amazon, choosing the appropriate keywords and optimizing your listings are essential. Making your products Amazon-friendly for search engines improves indexing for a particular search phrase. The product listing achieves the most discoverability for your selected search term’s relevant Amazon backend keywords. If the appropriate keywords are employed, your listing will be able to “speak in your buyer’s language.” Including the right keywords in your Amazon product listing will make your item more easily “discovered” and hence more likely to be chosen by a potential consumer.',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             formFold: 'formFold'
@@ -178,6 +172,21 @@ export default function AmazonMarketing() {
                     imageban={item.imageban}
                     sizeclass={item.sizeclass}
                     banner={item.banner}
+                />
+            )}
+
+
+            {/* ========= FormFold ========= */}
+
+            {formFold.map((item, i) =>
+                <FormFold key={i}
+                    subtitle={item.subtitle}
+                    title={item.title}
+                    text={item.text}
+                    foldDiscuss={item.foldDiscuss}
+                    foldnumber={item.foldnumber}
+                    imagfold={item.imagfold}
+                    convinced={item.convinced}
                 />
             )}
 
@@ -209,7 +218,6 @@ export default function AmazonMarketing() {
                     imagfold={item.imagfold}
                     subtitle={item.subtitle}
                     title={item.title}
-                    text={item.text}
                     textName={item.textName}
                     subtext={item.subtext}
                     foldDiscuss={item.foldDiscuss}
@@ -230,14 +238,10 @@ export default function AmazonMarketing() {
             {enhanceFold.map((item, i) =>
                 <Enhance key={i}
                     imagfold={item.imagfold}
-                    maintitle0={item.maintitle0}
-                    maintitle1={item.maintitle1}
-                    mintitle={item.mintitle}
-                    mintext={item.mintext}
-                    mintitle1={item.mintitle1}
-                    mintext1={item.mintext1}
-                    mintitle2={item.mintitle2}
-                    mintext2={item.mintext2}
+                    titlemin={item.titlemin}
+                    maintitle={item.maintitle}
+                    title={item.title}
+                    subtext={item.subtext}
                     mintextbef={item.mintextbef}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}
@@ -253,8 +257,7 @@ export default function AmazonMarketing() {
                     subtitle={item.subtitle}
                     title={item.title}
                     text={item.text}
-                    text1={item.text1}
-                    text2={item.text2}
+                    mintextbef={item.mintextbef}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}
                     imagfold={item.imagfold}
@@ -269,21 +272,6 @@ export default function AmazonMarketing() {
                 <Convinced key={i}
                     title={item.title}
                     text={item.text}
-                    foldDiscuss={item.foldDiscuss}
-                    foldnumber={item.foldnumber}
-                    imagfold={item.imagfold}
-                    convinced={item.convinced}
-                />
-            )}
-
-            {/* ========= FormFold ========= */}
-
-            {formFold.map((item, i) =>
-                <FormFold key={i}
-                    subtitle={item.subtitle}
-                    title={item.title}
-                    text={item.text}
-                    subtext={item.subtext}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}
                     imagfold={item.imagfold}

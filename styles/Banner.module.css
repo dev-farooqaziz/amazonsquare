@@ -284,7 +284,7 @@
 
 /* ===== listingBannerI ===== */
 
-.listBanner{
+.listBanner {
   width: 60%;
 }
 
@@ -304,6 +304,25 @@
 }
 
 /* ===== deepKeyBanner ===== */
+
+.deepKeyBanner {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.deepKeyBanner P {
+  width: 90%;
+}
+
+.deepKeyBanner .bannImg {
+  width: 40%;
+  margin-top: 60px;
+  text-align: center;
+  margin-left: auto;
+}
 
 /* ===================== Media Queries ===================== */
 
@@ -357,6 +376,11 @@
     width: 100%;
   }
 
+  /* ======================== */
+
+  .deepKeyBanner .bannImg {
+    width: 40%;
+  }
 }
 
 @media screen and (min-width: 1366px) {
@@ -526,10 +550,9 @@
     width: 100%;
   }
 
-
   /* ======================== */
 
-  .listBanner{
+  .listBanner {
     width: 100%;
   }
 
@@ -540,16 +563,26 @@
   }
 
   .listingBannerI .bannImg {
-    position: unset;
     width: 100%;
     margin-top: 35px;
   }
 
-  .listingBannerI .bannerTxt {
+  /* ======================== */
+
+  .deepKeyBanner {
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+  }
+
+  .deepKeyBanner P {
     width: 100%;
   }
 
-  /* ======================== */
+  .deepKeyBanner .bannImg {
+    width: 100%;
+    margin-top: 35px;
+  }
 }
 
 @media screen and (max-width: 768px) {

@@ -2,6 +2,10 @@
   display: none;
 }
 
+.alirate{
+  background-color: #F8F8F8;
+}
+
 .divBef {
   width: 500px;
   height: 2px;

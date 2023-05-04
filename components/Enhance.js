@@ -23,9 +23,18 @@ const Enhance = (props) => {
                                     ''
                                 }
 
+                                {props.titlemin ?
+
+                                    <h4 className='font-14 fw-500 font-prime txt-prime'>
+                                        {props.titlemin}
+                                    </h4>
+                                    :
+                                    ''
+                                }
+
                                 {props.maintitle ?
 
-                                    <h2 className='font-36 fw-700 font-prime text-black mb-0 mb-lg-5'>
+                                    <h2 className='font-36 fw-700 font-prime text-black'>
                                         {props.maintitle}
                                     </h2>
                                     :
