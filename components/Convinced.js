@@ -3,6 +3,8 @@ import Link from 'next/link'
 import Image from 'next/image'
 import styles from '@/styles/Convinced.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+//images
+import call from '../public/images/icons/call.png'
 
 
 const Convinced = (props) => {
@@ -31,7 +33,8 @@ const Convinced = (props) => {
                                         <Link className={`${styles.btnP} btns btnPrime`} href="#">
                                             {props.foldDiscuss}
                                         </Link>
-                                        <Link className={`${styles.btnW} btns btnWhite`} href="tel:+1 (408) 689-7746">
+                                        <Link className={`${styles.btnW} btons btns btnWhite`} href="tel:+1 (408) 689-7746">
+                                            <Image className='img-fluid' src={call} alt='Amazon_Square' />
                                             {props.foldnumber}
                                         </Link>
                                     </div>

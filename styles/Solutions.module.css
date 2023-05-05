@@ -42,6 +42,14 @@
   color: #24303e;
 }
 
+.btnS img {
+  filter: invert(1);
+}
+
+.btnS:hover img {
+  filter: invert(0);
+}
+
 /* ===================== Media Queries ===================== */
 
 @media screen and (max-width: 991px) {

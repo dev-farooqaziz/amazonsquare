@@ -104,9 +104,9 @@ export default function AmazonMarketing() {
         {
             subtitle: 'Hire Amazon Product Listing Services',
             title: 'Elevate Your Product`s Ranking To Profitable Heights',
-            text: 'AMZ Profs helps you craft a top Amazon product listing. From curating the launch strategy to evaluating the listings, we ensure the success of your marketing strategy and make amendments wherever necessary to improve the results. Our product listing development service can improve discoverability, generating more sales.',
-            text1: 'Customers use Amazon to look for products to buy. Our Amazon product listing writers take advantage of this by combining buyer persona and cutting-edge SEO techniques to boost conversion rates. As a result, hiring an Amazon copywriter might be helpful to your company in the long term.',
-            text2: 'We create engaging content for product descriptions in a concise form, catering to all the common queries of the buyers to convert more leads into potential sales.',
+            subtext: 'AMZ Profs helps you craft a top Amazon product listing. From curating the launch strategy to evaluating the listings, we ensure the success of your marketing strategy and make amendments wherever necessary to improve the results. Our product listing development service can improve discoverability, generating more sales.',
+            subtext1: 'Customers use Amazon to look for products to buy. Our Amazon product listing writers take advantage of this by combining buyer persona and cutting-edge SEO techniques to boost conversion rates. As a result, hiring an Amazon copywriter might be helpful to your company in the long term.',
+            text1: 'We create engaging content for product descriptions in a concise form, catering to all the common queries of the buyers to convert more leads into potential sales.',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             imagfold: profitable,
@@ -126,7 +126,7 @@ export default function AmazonMarketing() {
             mintext1: 'We understand that when buyers are looking for any product on Amazon, their goal is to find the product that best fits their needs. Hence, we create compelling product descriptions to demonstrate the benefits of the products coupled with the strategic infusion of keywords.',
             mintitle2: 'Product Image Optimization',
             mintext2: 'A picture is worth 1000 words. Images can do what words can`t. When you hire AMZ Profs for your Amazon product listing development, we do not just focus on optimizing the listing; we also optimize the images so that your products show up on the top of search results.',
-            mintextbef: 'As a top Amazon product listing optimization company, we do everything it takes to get your products to get the deserved attention, attainable with keyword usage, compelling content creation, and product image optimization.',
+            text4: 'As a top Amazon product listing optimization company, we do everything it takes to get your products to get the deserved attention, attainable with keyword usage, compelling content creation, and product image optimization.',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             should: 'should'
@@ -238,7 +238,7 @@ export default function AmazonMarketing() {
                     mintext1={item.mintext1}
                     mintitle2={item.mintitle2}
                     mintext2={item.mintext2}
-                    mintextbef={item.mintextbef}
+                    text4={item.text4}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}
                     should={item.should}
@@ -252,9 +252,9 @@ export default function AmazonMarketing() {
                 <Traffic key={i}
                     subtitle={item.subtitle}
                     title={item.title}
-                    text={item.text}
+                    subtext={item.subtext}
+                    subtext1={item.subtext1}
                     text1={item.text1}
-                    text2={item.text2}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}
                     imagfold={item.imagfold}

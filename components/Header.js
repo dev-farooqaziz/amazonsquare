@@ -13,6 +13,7 @@ import logo2 from '../public/images/logo-dark.png'
 import avtar1 from '../public/images/testimonial/avatar-1.png'
 import avtar2 from '../public/images/testimonial/avatar-2.png'
 import avtar3 from '../public/images/testimonial/avatar-3.png'
+import call from '../public/images/icons/call.png'
 
 
 const Header = () => {
@@ -27,17 +28,17 @@ const Header = () => {
     const currentRoute = router.pathname;
     const path = currentRoute === "/amazon-marketing" ||
         currentRoute === "/amazon-author" ||
-        currentRoute === "/amazon-book-publish" ||
         currentRoute === "/enhanced-brand-I" ||
         currentRoute === "/smm" ||
         currentRoute === "/product-listing" ||
         currentRoute === "/product-listing-I" ||
         currentRoute === "/deep-keyword";
 
+    const aa = currentRoute === "/amazon-book-publish";
 
     return (
         <>
-            <header className={path ? `${styles.header} menuBlack` : `${styles.header}`}>
+            <header className={path ? `${styles.header} menuBlack` : aa ? `${styles.header} extra` : `${styles.header}`}>
                 <Container>
                     <Navbar expand="lg" className={styles.navBar}>
 
@@ -247,8 +248,9 @@ const Header = () => {
                                 </li>
 
                                 <li className={`${styles.headerTel}`}>
-                                    <Link className={`${styles.btnT} btns btnTrans btnBlThm`} href="tel:(302) 883-8877">
-                                        (800) 781-9093
+                                    <Link className={`${styles.btnT} btns btons btnTrans btnBlThm`} href="tel:+1 234 456 7890">
+                                        <Image className='img-fluid call' src={call} alt='Amazon_Square' />
+                                        +1 234 456 7890
                                     </Link>
                                 </li>
 

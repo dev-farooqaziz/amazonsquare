@@ -3,6 +3,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '@/styles/Should.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+//images
+import call from '../public/images/icons/call.png'
+
 
 const Traffic = (props) => {
     return (
@@ -69,20 +72,40 @@ const Traffic = (props) => {
                                     ''
                                 }
 
-                                {props.text ?
-                                    <p className='font-14 fw-300 font-prime text-black mb-2'>{props.text}</p>
+                                {props.subtext ?
+                                    <p className='font-14 fw-300 font-prime text-black mb-2'>{props.subtext}</p>
+                                    :
+                                    ''
+                                }
+
+                                {props.subtext1 ?
+                                    <p className='font-14 fw-300 font-prime text-black mb-2'>{props.subtext1}</p>
+                                    :
+                                    ''
+                                }
+
+                                {props.subtext2 ?
+                                    <p className='font-14 fw-300 font-prime text-black mb-2'>{props.subtext2}</p>
                                     :
                                     ''
                                 }
 
                                 {props.text1 ?
-                                    <p className='font-14 fw-400 font-prime text-black mb-2'>{props.text1}</p>
+                                    <p className={`font-12 fw-600 font-prime text-black my-3 ${styles.bgText}`}>
+                                        <span className={styles.span1}>"</span>
+                                        {props.text1}
+                                        <span className={styles.span2}>"</span>
+                                    </p>
                                     :
                                     ''
                                 }
 
                                 {props.text2 ?
-                                    <p className='font-14 fw-400 font-prime text-black mb-2'>{props.text2}</p>
+                                    <p className={`font-12 fw-600 font-prime text-black ${styles.bgText}`}>
+                                        <span className={styles.span1}>"</span>
+                                        {props.text2}
+                                        <span className={styles.span2}>"</span>
+                                    </p>
                                     :
                                     ''
                                 }
@@ -113,7 +136,8 @@ const Traffic = (props) => {
                                     <Link className='btns btnPrime' href="#">
                                         {props.foldDiscuss}
                                     </Link>
-                                    <Link className='btns btnSecond' href="tel:+1 (408) 689-7746">
+                                    <Link className='btons btns btnSecond' href="tel:+1 (408) 689-7746">
+                                        <Image className='img-fluid call' src={call} alt='Amazon_Square' />
                                         {props.foldnumber}
                                     </Link>
                                 </div>

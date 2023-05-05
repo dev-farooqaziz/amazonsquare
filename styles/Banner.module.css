@@ -296,6 +296,17 @@
   background-color: #f8f8f8;
 }
 
+.listingBannerI h1 {
+  position: relative;
+}
+
+.listingBannerI h1::before {
+  content: url(../public/images/icons/txt-before.png);
+  position: absolute;
+  right: 180px;
+  bottom: 0;
+}
+
 .listingBannerI .bannImg {
   width: 40%;
   margin-top: 60px;
@@ -311,6 +322,17 @@
   justify-content: flex-start;
   height: 100vh;
   background-color: #f8f8f8;
+}
+
+.deepKeyBanner h1 {
+  position: relative;
+}
+
+.deepKeyBanner h1::before {
+  content: url(../public/images/icons/txt-before.png);
+  position: absolute;
+  right: 180px;
+  bottom: 0;
 }
 
 .deepKeyBanner P {
@@ -567,6 +589,10 @@
     margin-top: 35px;
   }
 
+  .listingBannerI h1::before {
+    display: none;
+  }
+
   /* ======================== */
 
   .deepKeyBanner {
@@ -582,6 +608,10 @@
   .deepKeyBanner .bannImg {
     width: 100%;
     margin-top: 35px;
+  }
+
+  .deepKeyBanner h1::before {
+    display: none;
   }
 }
 

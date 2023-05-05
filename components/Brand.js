@@ -3,6 +3,9 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '@/styles/Should.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+//images
+import call from '../public/images/icons/call.png'
+
 
 const Brand = (props) => {
     return (
@@ -71,8 +74,13 @@ const Brand = (props) => {
 
                             {props.foldDiscuss ?
                                 <div className='bttns mt-5'>
-                                    <Link className='btns btnPrime' href="#">{props.foldDiscuss}</Link>
-                                    <Link className='btns btnSecond' href="tel:+1 (408) 689-7746"> {props.foldnumber}</Link>
+                                    <Link className='btns btnPrime' href="#">
+                                        {props.foldDiscuss}
+                                        </Link>
+                                    <Link className='btons btns btnSecond' href="tel:+1 (408) 689-7746">
+                                    <Image className='img-fluid call' src={call} alt='Amazon_Square' />
+                                        {props.foldnumber}
+                                        </Link>
                                 </div>
                                 :
                                 ''

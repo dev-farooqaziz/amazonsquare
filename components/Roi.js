@@ -29,7 +29,7 @@ const Roi = () => {
                                 <p className='font-16 fw-300 font-second txt-second'>To increase ROI, you have to understand the internal workings of Amazon Search Engine – how it’s design for the shopper – and how Buyability converts into Visibility.</p>
                                 <div className='bttns mt-3 mb-4'>
                                     <Link className='btns homeBtn btnPrime' href="#">Get A Quote</Link>
-                                    <Link className='btns homeBtn btnSecond' href="#">Get A Quote</Link>
+                                    <Link className='btns homeBtn btnSecond' href="#">Chat Now</Link>
                                 </div>
                             </div>
                         </Col>

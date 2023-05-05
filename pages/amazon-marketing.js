@@ -121,7 +121,7 @@ export default function AmazonMarketing() {
             maintitle: ' Why Should You Choose Us?',
             subtitle: 'Increase Traffic with Our Custom Amazon',
             title: 'A++ Marketing Solutions',
-            text: 'Our Amazon A++ marketing agency assists thousands of sellers globally to make sustainable profits via steady sales. We take pride in promoting your brand, product, and services via social networking sites like Facebook, Linked In, Twitter, Pinterest, and other channels. This technique presents products to a targeted audience on these platforms. By providing you with A++ Marketing, Amazon Square emphasizes the specific requirements of the target audience.',
+            subtext: 'Our Amazon A++ marketing agency assists thousands of sellers globally to make sustainable profits via steady sales. We take pride in promoting your brand, product, and services via social networking sites like Facebook, Linked In, Twitter, Pinterest, and other channels. This technique presents products to a targeted audience on these platforms. By providing you with A++ Marketing, Amazon Square emphasizes the specific requirements of the target audience.',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             imagfold: traffic,
@@ -259,7 +259,7 @@ export default function AmazonMarketing() {
                     maintitle={item.maintitle}
                     subtitle={item.subtitle}
                     title={item.title}
-                    text={item.text}
+                    subtext={item.subtext}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}
                     imagfold={item.imagfold}

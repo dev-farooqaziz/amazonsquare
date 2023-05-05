@@ -120,8 +120,8 @@ export default function AmazonMarketing() {
         {
             subtitle: 'Create a Great First Impression &',
             title: 'Boost Your Marketing Efforts With Our Amazon Product Image Optimization Services',
-            text: 'For making your product available to the audiences on Amazon, you need one or more product images. The image used primarily on the listing is called the Main image. It represents your item in the search results and the images section of search engines. This is the first image customers see when they search for a product.',
-            text1: 'According to Amazon, advertisers should use images that are clear, easy to comprehend, information-enriched, and attractive enough to catch the eyes of potential customers. AMZ Profs has a team of professional Amazon product image optimization specialists who are well-aware of the do`s and don`t of the Amazon product images. We make sure that the images used on your product listing strictly adhere to Amazon`s product image criteria to get the listing approved and rank higher in the search results.',
+            subtext: 'For making your product available to the audiences on Amazon, you need one or more product images. The image used primarily on the listing is called the Main image. It represents your item in the search results and the images section of search engines. This is the first image customers see when they search for a product.',
+            subtext1: 'According to Amazon, advertisers should use images that are clear, easy to comprehend, information-enriched, and attractive enough to catch the eyes of potential customers. AMZ Profs has a team of professional Amazon product image optimization specialists who are well-aware of the do`s and don`t of the Amazon product images. We make sure that the images used on your product listing strictly adhere to Amazon`s product image criteria to get the listing approved and rank higher in the search results.',
             textbef: 'Images that accurately represent your product.',
             textbef2: 'Use of white background, accurate size, and minimal propping.',
             foldDiscuss: 'Get A Quote',
@@ -137,7 +137,7 @@ export default function AmazonMarketing() {
             maintitle0: 'Amplify Your Product`s Sales through',
             maintitle: 'Product Image Optimization',
             imagfold: amplify,
-            text1: 'Amazon has all the rights to remove the images that are not up to the mark with the product images standards. Therefore, it is the brand`s responsibility to ensure that all the photos are up to the standards described by the platform.',
+            text: 'Amazon has all the rights to remove the images that are not up to the mark with the product images standards. Therefore, it is the brand`s responsibility to ensure that all the photos are up to the standards described by the platform.',
             text2: 'One of the most important fundamentals of Amazon selling is having a solid product image optimization strategy that adheres to the Amazon product image criteria. As a leading Amazon product image optimization agency, we ensure that all of your product images are compliant with the Amazon standards and are optimized for discovery.',
             text3: 'The image that your listing consists of creates the first impression of your product to the user. It is the first thing that the potential customer notices, even before the product description. Hence, we optimize the product images using our immense image optimization knowledge to help businesses level up their Amazon search ranking game.',
             foldDiscuss: 'Get A Quote',
@@ -249,7 +249,7 @@ export default function AmazonMarketing() {
                     imagfold={item.imagfold}
                     maintitle0={item.maintitle0}
                     maintitle={item.maintitle}
-                    text1={item.text1}
+                    text={item.text}
                     text2={item.text2}
                     text3={item.text3}
                     foldDiscuss={item.foldDiscuss}
@@ -265,8 +265,8 @@ export default function AmazonMarketing() {
                 <Traffic key={i}
                     subtitle={item.subtitle}
                     title={item.title}
-                    text={item.text}
-                    text1={item.text1}
+                    subtext={item.subtext}
+                    subtext1={item.subtext1}
                     textbef={item.textbef}
                     textbef2={item.textbef2}
                     foldDiscuss={item.foldDiscuss}

@@ -1,7 +1,10 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 import styles from '@/styles/FormFold.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+//images
+import call from '../public/images/icons/call.png'
 
 
 const FormFold = (props) => {
@@ -42,7 +45,8 @@ const FormFold = (props) => {
                                         <Link className={`${styles.btnP} btns btnPrime`} href="#">
                                             {props.foldDiscuss}
                                         </Link>
-                                        <Link className={`${styles.btnW} btns btnSecond`} href="tel:+1 (408) 689-7746">
+                                        <Link className={`${styles.btnW} btons btns btnSecond`} href="tel:+1 (408) 689-7746">
+                                        <Image className='img-fluid call' src={call} alt='Amazon_Square' />
                                             {props.foldnumber}
                                         </Link>
                                     </div>

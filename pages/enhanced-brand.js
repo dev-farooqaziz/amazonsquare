@@ -100,7 +100,7 @@ export default function AmazonAuthor() {
             maintitle2: 'We Optimize for Both Humans and Machines!',
             subtitle: 'Ideal Content for Both Humans & Machines',
             title: 'Buyer-Centric Writing that Resonates With Your Brand`s Voice',
-            text: 'Make the most of the brand registry and give the traditional FBA description a solid refurbishing to make your presence felt amongst the competitors with our Enhanced Brand Content services.',
+            subtext: 'Make the most of the brand registry and give the traditional FBA description a solid refurbishing to make your presence felt amongst the competitors with our Enhanced Brand Content services.',
             text1: 'The A+ Page represents the brand on Amazon. And we know you rely upon a professional company for creating the website of your business or graphics. Amazon Square is here to build EBC content as per your demands. We have experience creating 2000+ Amazon EBC designs from scratch, and we take pride in calling ourselves "Pros.',
             text2: 'We have a team of creative designers and excellent copywriters with the skills required to develop high-quality Amazon A+ design that converts visitors into customers and beat the competition. Hiring our Amazon content marketing services will offer you peace of mind knowing that you will receive the highest quality of service within the time frame agreed upon.',
             foldDiscuss: 'Get A Quote',
@@ -226,7 +226,7 @@ export default function AmazonAuthor() {
                     maintitle2={item.maintitle2}
                     subtitle={item.subtitle}
                     title={item.title}
-                    text={item.text}
+                    subtext={item.subtext}
                     text1={item.text1}
                     text2={item.text2}
                     foldDiscuss={item.foldDiscuss}

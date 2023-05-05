@@ -7,6 +7,7 @@ import { Container, Row, Col } from 'react-bootstrap'
 import icon1 from '../public/images/icons/campaigns.png'
 import icon2 from '../public/images/icons/expertise.png'
 import icon3 from '../public/images/icons/time.png'
+import call from '../public/images/icons/call.png'
 
 
 const Purchasers = () => {
@@ -72,7 +73,8 @@ const Purchasers = () => {
                                 <Link className={`${styles.btnL} btns btnPrime`} href="#">
                                     Get A Quote
                                 </Link>
-                                <Link className={`${styles.btnW} btns btnWhite`} href="#">
+                                <Link className={`${styles.btnW} btons btns btnWhite`} href="#">
+                                    <Image className='img-fluid' src={call} alt='Amazon_Square' />
                                     +1 (408) 689-7746
                                 </Link>
                             </div>

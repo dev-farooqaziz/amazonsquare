@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '@/styles/Solutions.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+//images
+import call from '../public/images/icons/call.png'
 
 
 const Solutions = (props) => {
@@ -56,8 +58,13 @@ const Solutions = (props) => {
 
                             {props.foldDiscuss ?
                                 <div className='bttns mt-4'>
-                                    <Link className={`${styles.btnW} btns btnWhite`} href="#">{props.foldDiscuss}</Link>
-                                    <Link className={`${styles.btnS} btns btnSecond`} href="tel:+1 (408) 689-7746"> {props.foldnumber}</Link>
+                                    <Link className={`${styles.btnW} btns btnWhite`} href="#">
+                                        {props.foldDiscuss}
+                                    </Link>
+                                    <Link className={`${styles.btnS} btons btns btnSecond`} href="tel:+1 (408) 689-7746">
+                                        <Image className='img-fluid' src={call} alt='Amazon_Square' />
+                                        {props.foldnumber}
+                                    </Link>
                                 </div>
                                 :
                                 ''

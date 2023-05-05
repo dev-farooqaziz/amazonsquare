@@ -233,7 +233,8 @@ a:hover {
   border: 0px;
   border-radius: 8px;
   height: 40px;
-  width: 220px;
+  width: max-content;
+  min-width: 220px;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -348,6 +349,10 @@ a:hover {
 
 .slick-slider img {
   margin: auto;
+}
+
+.discover .slick-track img {
+  margin-left: 0;
 }
 
 .partners .slick-track {
@@ -466,6 +471,46 @@ a:hover {
 }
 
 .btons:hover img.call {
+  filter: invert(1);
+}
+
+header.extra .menuLinks {
+  color: #000;
+}
+
+header.extra .btnBlThm {
+  background-color: #fff;
+  color: #000;
+}
+
+header.extra .btnBlThm:hover {
+  background-color: #24303e;
+  color: #fff;
+}
+
+header.extra .btnBlThem {
+  background-color: #24303e;
+  color: #fff;
+}
+
+header.extra .btnBlThem:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+header.extra .btnBlThm .call {
+  filter: invert(0);
+}
+
+header.extra .btnBlThm:hover .call {
+  filter: invert(1);
+}
+
+header.menuBlack .btnBlThm .call {
+  filter: invert(1);
+}
+
+header.menuBlack .btnBlThm:hover .call {
   filter: invert(1);
 }
 

@@ -26,8 +26,8 @@
 }
 
 .headerTel a {
-  width: 170px;
   font-size: 14px;
+  min-width: 180px;
 }
 
 .headerTel a.btnW:hover {
@@ -171,6 +171,10 @@
 
 .border {
   padding: 0;
+}
+
+.header .headerTel .btnT:hover img {
+  filter: invert(0);
 }
 
 /* ========= Media Queries ========= */

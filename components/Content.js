@@ -5,6 +5,8 @@ import styles from '@/styles/Content.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 //images
 import foldImg from '../public/images/folds/content.png'
+import call from '../public/images/icons/call.png'
+
 
 const Content = () => {
     return (
@@ -25,7 +27,8 @@ const Content = () => {
                                 <Link className='btns btnPrime' href="#">
                                     Get A Quote
                                 </Link>
-                                <Link className='btns btnSecond' href="#">
+                                <Link className='btons btns btnSecond' href="#">
+                                    <Image className='img-fluid call' src={call} alt='Amazon_Square' />
                                     +1 (408) 689-7746
                                 </Link>
                             </div>

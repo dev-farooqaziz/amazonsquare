@@ -70,7 +70,7 @@ export default function AmazonMarketing() {
 
     const rateFold = [
         {
-            rateTitle: 'HERE`S WHY YOU NEED TO HIRE OUR AMAZON KEYWORD RESEARCH PROFESSIONALS',
+            rateTitle: 'Here`s Why You Need To Hire Our Amazon Keyword Research Professionals',
             cardCount1: '01',
             cardHead1: 'Run Strategic PPC Campaigns',
             cardText1: 'Amazon keywords are the backbone of purpose-built PPC campaigns and are the determining factor for its success. With our keyword research services, you can bring more sales, target ads better, and improve the overall outcome of your PPC campaign with focused keywords.',
@@ -104,8 +104,8 @@ export default function AmazonMarketing() {
         {
             subtitle: 'Witness the Power of Choosing the Right Keywords',
             title: 'The Use of Appropriate Keywords Is a Crucial Part of Amazon SEO Strategy',
-            text: 'Relevant keywords can assist you in acquiring traffic from Amazon`s real-time customer search requests. An optimized product listing with relevant keywords is more likely to be indexed and appear for search queries linked to your keywords in search results.',
-            mintextbef: 'The higher a product`s ranking in search results, the more sales it will generate. Use well-researched and high-performing keywords to boost the ranking of your products on search engines. Observe the OBVIOUS increase in your sales.',
+            subtext: 'Relevant keywords can assist you in acquiring traffic from Amazon`s real-time customer search requests. An optimized product listing with relevant keywords is more likely to be indexed and appear for search queries linked to your keywords in search results.',
+            text1: 'The higher a product`s ranking in search results, the more sales it will generate. Use well-researched and high-performing keywords to boost the ranking of your products on search engines. Observe the OBVIOUS increase in your sales.',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             imagfold: crucial,
@@ -121,7 +121,7 @@ export default function AmazonMarketing() {
             imagfold: relevant,
             title: 'Strategize Your Amazon Marketing CampaignUsing Relevant Keywords! Sell More Using The Right Keywords',
             subtext: 'Selling on Amazon is all about using the right keywords and optimizing your listings. It improves indexing for a given search term by optimizing your products for Amazon`s search engine. The product listing obtains the greatest discoverability against your selected search term based on the keywords.',
-            mintextbef: 'By using the correct keywords, your listing will be able to "speak in your buyer`s language." Your product gets organically "discoverable" and consequently picked up by a prospective buyer by using the proper keywords in your Amazon product listing(s).',
+            text4: 'By using the correct keywords, your listing will be able to "speak in your buyer`s language." Your product gets organically "discoverable" and consequently picked up by a prospective buyer by using the proper keywords in your Amazon product listing(s).',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             should: 'should'
@@ -143,8 +143,8 @@ export default function AmazonMarketing() {
 
     const formFold = [
         {
-            subtitle: 'CONQUER THE AMAZON MARKETPLACE',
-            title: 'DEEP KEYWORD RESEARCH',
+            subtitle: 'Conquer The Amazon Marketplace',
+            title: 'Deep Keyword Research',
             text: 'We make sure that interaction with the target market for your Amazon business is simple. When selling on Amazon, choosing the appropriate keywords and optimizing your listings are essential. Making your products Amazon-friendly for search engines improves indexing for a particular search phrase. The product listing achieves the most discoverability for your selected search term’s relevant Amazon backend keywords. If the appropriate keywords are employed, your listing will be able to “speak in your buyer’s language.” Including the right keywords in your Amazon product listing will make your item more easily “discovered” and hence more likely to be chosen by a potential consumer.',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
@@ -242,7 +242,7 @@ export default function AmazonMarketing() {
                     maintitle={item.maintitle}
                     title={item.title}
                     subtext={item.subtext}
-                    mintextbef={item.mintextbef}
+                    text4={item.text4}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}
                     should={item.should}
@@ -256,8 +256,8 @@ export default function AmazonMarketing() {
                 <Traffic key={i}
                     subtitle={item.subtitle}
                     title={item.title}
-                    text={item.text}
-                    mintextbef={item.mintextbef}
+                    subtext={item.subtext}
+                    text1={item.text1}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}
                     imagfold={item.imagfold}

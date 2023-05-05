@@ -109,7 +109,7 @@ export default function AmazonAuthor() {
             maintitle2: 'Hire Amazon Pay Per Click Professionals to Execute Commercial Goals',
             subtitle: 'Boost Sales, Revenues & Profits With Us',
             title: 'Amazon PPC Experts',
-            text: 'Are you lagging behind the f leading Amazon suppliers? Do you have unique merchandise to stand out among competitors, but you cannot reach out to the right customers? Do you want to be a dominant online wholesaler? All your desires can come true with our Amazon PPC adverts.',
+            subtext: 'Are you lagging behind the f leading Amazon suppliers? Do you have unique merchandise to stand out among competitors, but you cannot reach out to the right customers? Do you want to be a dominant online wholesaler? All your desires can come true with our Amazon PPC adverts.',
             text1: 'What is Pay-Per-Click (PPC)? It is an online advertising model in which marketers bid on keywords. When an Amazon client conducts a product search, the sellers who submit the most incredible bids on relevant keywords win the auction. Their product ads appear in their selected location. We give you a full-time Amazon account manager to manage your PPC campaigns, ensuring that you achieve and even surpass your sales goals.',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
@@ -235,7 +235,7 @@ export default function AmazonAuthor() {
                     maintitle2={item.maintitle2}
                     subtitle={item.subtitle}
                     title={item.title}
-                    text={item.text}
+                    subtext={item.subtext}
                     text1={item.text1}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}

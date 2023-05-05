@@ -5,6 +5,7 @@ import styles from '@/styles/Online.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 //images
 import foldImg from '../public/images/folds/online.png'
+import call from '../public/images/icons/call.png'
 
 
 const Online = () => {
@@ -41,7 +42,8 @@ const Online = () => {
                                 <Link className='btns btnPrime' href="#">
                                     Get A Quote
                                 </Link>
-                                <Link className='btns btnSecond' href="#">
+                                <Link className='btons btns btnSecond' href="#">
+                                    <Image className='img-fluid call' src={call} alt='Amazon_Square' />
                                     +1 (408) 689-7746
                                 </Link>
                             </div>

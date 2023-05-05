@@ -4,7 +4,7 @@
 }
 
 .shouldRow {
-  align-items: center;
+  align-items: flex-end;
 }
 
 .shouldImg {
@@ -13,7 +13,7 @@
   margin-right: auto;
 }
 
-.traficSholud .shouldImg {
+/* .traficSholud .shouldImg {
   position: relative;
 }
 
@@ -22,7 +22,7 @@
   left: -45px;
   top: -177px;
   z-index: -1;
-}
+} */
 
 .brandSholud .shouldImg {
   position: relative;
@@ -31,9 +31,30 @@
 
 .brandSholud .shouldImg img {
   position: absolute;
-  left: 40px;
-  top: -160px;
+  right: 0px;
+  bottom: -90px;
   z-index: -1;
+}
+
+.bgText {
+  background-color: #f8f8f8;
+  padding: 15px 30px;
+  position: relative;
+}
+
+.bgText span{
+  color: #fd9802;
+  font-size: 30px;
+  position: absolute;
+}
+
+.span1{
+  left: 15px;
+  top: 0;
+}
+
+.span2{
+  margin-left: 4px;
 }
 
 /* ===================== Media Queries ===================== */
@@ -66,5 +87,4 @@
   .brandSholud .shouldImg img {
     position: unset;
   }
-
 }

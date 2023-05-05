@@ -65,7 +65,7 @@ export default function AmazonAuthor() {
     const bookPubFold = [
         {
             title: 'Amazon Book Publishing',
-            text: 'We are here to make your dreams a reality! The process of publishing an eBook is challenging. Hire us to manage every step of your book publishing. Our group will finalize and publish your novel as a book on Amazon. Undoubtedly, it is difficult to publish an eBook. We can assist you with the work and support you in attaining the success you have always desired with the right direction and approach. We are the best choice if you want to self-publish an eBook quickly. As soon as we get your content, our team starts modifying it to meet the standards for eBook publication. In contrast to traditional publishing, which initially restricts your manuscript’s distribution to just one country, when you publish your book on Amazon with Amazon Profs, you may swiftly increase the distribution of your work throughout the world. Amazon publishing changed the game when access to the literary world was previously restricted to a small group of elites. The ease of use, accessibility, flexibility, price, royalties and payment options are some of self-publishing’s most notable advantages. Even if they have the ability to write captivating manuscripts, many prospective writers have trouble receiving the respect they deserve. As a result, we urge authors to collaborate with us and release their excellent eBooks on Amazon. We provide you with access to a reliable platform where you may advertise your book and receive all the support necessary to make it profitable. Your writing will be turned into a book that will be published on Amazon with all the parts prepared and polished. We publish books on Amazon every day, making us experts in the field and able to save you a ton of time, money, and effort. We will transfer your work from your computer to the Amazon eBook store and take care of all the steps required to publish your book on Amazon. ',
+            subtext: 'We are here to make your dreams a reality! The process of publishing an eBook is challenging. Hire us to manage every step of your book publishing. Our group will finalize and publish your novel as a book on Amazon. Undoubtedly, it is difficult to publish an eBook. We can assist you with the work and support you in attaining the success you have always desired with the right direction and approach. In contrast to traditional publishing, which initially restricts your manuscript’s distribution to just one country, when you publish your book on Amazon with Amazon Profs, you may swiftly increase the distribution of your work throughout the world. Amazon publishing changed the game when access to the literary world was previously restricted to a small group of elites.',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             imagfold: publish1,
@@ -176,7 +176,7 @@ export default function AmazonAuthor() {
                     maintitle={item.maintitle}
                     subtitle={item.subtitle}
                     title={item.title}
-                    text={item.text}
+                    subtext={item.subtext}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}
                     imagfold={item.imagfold}

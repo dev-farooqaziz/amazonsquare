@@ -121,9 +121,9 @@ export default function AmazonMarketing() {
             maintitle: 'Amazon SMM Services',
             subtitle: 'We offer the best',
             title: 'Amazon Social Media Marketing',
-            text: 'solutions that deliver excellent results.',
-            text1: 'Social media marketing is a hybrid method that starts with providing value to your consumers and gradually redirects visitors to make purchases using value-driven content and soft-selling techniques. Our Amazon experts will create a result-oriented Social Media Strategy that incorporates soft-selling strategies, sending high-quality, likely-to-convert leads to your Amazon store!',
-            text2: '"As a professional Amazon SMM company, we give a blended PR recipe that will add a human touch to your product, what lifestyle it will offer to your potential consumers, and how your product improves their lives – life advice, interesting facts, how- to`s, and everything lovely."',
+            subtext: 'solutions that deliver excellent results.',
+            subtext1: 'Social media marketing is a hybrid method that starts with providing value to your consumers and gradually redirects visitors to make purchases using value-driven content and soft-selling techniques. Our Amazon experts will create a result-oriented Social Media Strategy that incorporates soft-selling strategies, sending high-quality, likely-to-convert leads to your Amazon store!',
+            subtext2: '"As a professional Amazon SMM company, we give a blended PR recipe that will add a human touch to your product, what lifestyle it will offer to your potential consumers, and how your product improves their lives – life advice, interesting facts, how- to`s, and everything lovely."',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             imagfold: solutions,
@@ -252,9 +252,9 @@ export default function AmazonMarketing() {
                     maintitle={item.maintitle}
                     subtitle={item.subtitle}
                     title={item.title}
-                    text={item.text}
-                    text1={item.text1}
-                    text2={item.text2}
+                    subtext={item.subtext}
+                    subtext1={item.subtext1}
+                    subtext2={item.subtext2}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}
                     imagfold={item.imagfold}

@@ -5,6 +5,7 @@ import styles from '@/styles/Consult.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
 //images
 import foldImg from '../public/images/folds/consult.png'
+import call from '../public/images/icons/call.png'
 
 const Consult = () => {
     return (
@@ -27,7 +28,8 @@ const Consult = () => {
                                 <Link className={`${styles.btnW} btns btnWhite`} href="#">
                                     Get A Quote
                                 </Link>
-                                <Link className={`${styles.btnS} btns btnSecond`} href="#">
+                                <Link className={`${styles.btnS} btons btns btnSecond`} href="#">
+                                    <Image className='img-fluid' src={call} alt='Amazon_Square' />
                                     +1 (408) 689-7746
                                 </Link>
                             </div>

@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '@/styles/Should.module.css'
 import { Container, Row, Col } from 'react-bootstrap'
+//images
+import call from '../public/images/icons/call.png'
 
 
 const Enhance = (props) => {
@@ -115,7 +117,11 @@ const Enhance = (props) => {
                                 }
 
                                 {props.text1 ?
-                                    <p className='font-14 fw-500 font-prime text-black mb-2'>{props.text1}</p>
+                                    <p className={`font-12 fw-600 font-prime text-black mb-2 ${styles.bgText}`}>
+                                        <span className={styles.span1}>"</span>
+                                        {props.text1}
+                                        <span className={styles.span2}>"</span>
+                                    </p>
                                     :
                                     ''
                                 }
@@ -174,12 +180,27 @@ const Enhance = (props) => {
                                     ''
                                 }
 
+                                {props.text4 ?
+                                    <p className={`font-12 fw-600 font-prime text-black mb-2 ${styles.bgText}`}>
+                                        <span className={styles.span1}>"</span>
+                                        {props.text4}
+                                        <span className={styles.span2}>"</span>
+                                    </p>
+                                    :
+                                    ''
+                                }
+
                             </div>
 
                             {props.foldDiscuss ?
                                 <div className='bttns mt-5'>
-                                    <Link className='btns btnPrime' href="#">{props.foldDiscuss}</Link>
-                                    <Link className='btns btnSecond' href="tel:+1 (408) 689-7746"> {props.foldnumber}</Link>
+                                    <Link className='btns btnPrime' href="#">
+                                        {props.foldDiscuss}
+                                    </Link>
+                                    <Link className='btons btns btnSecond' href="tel:+1 (408) 689-7746">
+                                        <Image className='img-fluid call' src={call} alt='Amazon_Square' />
+                                        {props.foldnumber}
+                                    </Link>
                                 </div>
                                 :
                                 ''

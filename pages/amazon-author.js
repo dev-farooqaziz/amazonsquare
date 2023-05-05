@@ -81,7 +81,7 @@ export default function AmazonAuthor() {
     const trafficFold = [
         {
             title: 'Our Amazon Author Page Development Services',
-            text1: 'Augment Your Exposure to Online Search Results.',
+            subtext: 'Augment Your Exposure to Online Search Results.',
             foldDiscuss: 'Get A Quote',
             foldnumber: '+1 (408) 689-7746',
             imagfold: augment,
@@ -172,7 +172,7 @@ export default function AmazonAuthor() {
             {trafficFold.map((item, i) =>
                 <Traffic key={i}
                     title={item.title}
-                    text1={item.text1}
+                    subtext={item.subtext}
                     foldDiscuss={item.foldDiscuss}
                     foldnumber={item.foldnumber}
                     imagfold={item.imagfold}
