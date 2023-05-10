@@ -53,6 +53,36 @@
   padding-top: 0;
   margin-top: -3%;
   z-index: 1;
+  position: relative;
+}
+
+.homeBanner.bannImg::before {
+  content: "";
+  position: absolute;
+  top: 62.9%;
+  left: 47.1%;
+  background-color: #fd9802;
+  width: 36px;
+  height: 35px;
+  border-radius: 100%;
+  display: none;
+}
+
+.homeBanner.bannImg::after {
+  content: "";
+  position: absolute;
+  top: 61.3%;
+  right: 46.1%;
+  background-color: #fd9802;
+  width: 35px;
+  height: 36px;
+  border-radius: 100%;
+  display: none;
+}
+
+.homeBanner.bannImg:hover::after,
+.homeBanner.bannImg:hover::before {
+  display: block;
 }
 
 .homeBanner .bannerTxt {
@@ -427,6 +457,16 @@
     height: 2px;
     background-color: #fd9802;
   }
+
+  .homeBanner.bannImg::before {
+    width: 31px;
+    height: 31px;
+  }
+
+  .homeBanner.bannImg::after {
+    width: 31px;
+    height: 31px;
+  }
 }
 
 @media screen and (max-width: 1024px) {
@@ -434,6 +474,20 @@
     position: relative;
     width: 100%;
     margin: auto;
+  }
+
+  .homeBanner.bannImg::before {
+    top: 63%;
+    left: 47.1%;
+    width: 26px;
+    height: 25px;
+  }
+
+  .homeBanner.bannImg::after {
+    top: 61.5%;
+    right: 46%;
+    width: 26px;
+    height: 25px;
   }
 
   /* ======================== */
@@ -478,6 +532,16 @@
 
   .homeBanner .bannerTxt h1::before {
     display: none;
+  }
+
+  .homeBanner.bannImg::before {
+    width: 20px;
+    height: 19px;
+  }
+
+  .homeBanner.bannImg::after {
+    width: 20px;
+    height: 19px;
   }
 
   /* ======================== */
@@ -616,6 +680,22 @@
 }
 
 @media screen and (max-width: 768px) {
+  .homeBanner.bannImg::before {
+    top: 63%;
+    left: 47.2%;
+    width: 11px;
+    height: 11px;
+  }
+
+  .homeBanner.bannImg::after {
+    top: 61.5%;
+    right: 46.2%;
+    width: 11px;
+    height: 11px;
+  }
+
+  /* ======================== */
+
   .serviceBanner .bannerTxt {
     margin-top: 50px;
   }
@@ -624,5 +704,21 @@
 
   .marketingBanner {
     height: auto;
+  }
+}
+
+@media screen and (max-width: 321px) {
+  .homeBanner.bannImg::before {
+    top: 62.8%;
+    left: 47.2%;
+    width: 8.2px;
+    height: 8px;
+  }
+
+  .homeBanner.bannImg::after {
+    top: 61.4%;
+    right: 46.3%;
+    width: 8.2px;
+    height: 8px;
   }
 }
