@@ -616,6 +616,10 @@ header.menuBlack .btnBlThm:hover .call {
   .bordeRight {
     border-right: 0px;
   }
+
+  header.extra .menuLinks {
+    color: #fff;
+  }
 }
 
 /* ===================== */
