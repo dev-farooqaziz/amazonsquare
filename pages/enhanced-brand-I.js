@@ -38,7 +38,7 @@ export default function AmazonAuthor() {
             </Link>
             <Link className={`${styles.btnS} btons btns btnSecond`} href="#">
                 <Image className={`${styles.call} img-fluid`} src={call} alt='Amazon_Square' />
-                +1 (408) 689-7746
+                (012) 345 6789
             </Link>
         </div>
 
@@ -69,7 +69,7 @@ export default function AmazonAuthor() {
             title: 'Amazon PPC Ad Campaign',
             text1: 'You should be aware that Amazon advertising is a challenging procedure before you invest your hard-earned money. Particularly when promoting Amazon-sponsored items, a clear strategy must be used. Many people have resorted to Amazon Profs for its well-known Amazon PPC marketing solutions after trying to connect and advertise things through Amazon. By putting them into practice, we guarantee that the finished campaign will be focused on the consumer, efficient, and built for high financial output.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: revenues,
             alignclass: 'brandSholud',
             should: 'should'
@@ -112,7 +112,7 @@ export default function AmazonAuthor() {
             subtext: 'Are you lagging behind the f leading Amazon suppliers? Do you have unique merchandise to stand out among competitors, but you cannot reach out to the right customers? Do you want to be a dominant online wholesaler? All your desires can come true with our Amazon PPC adverts.',
             text1: 'What is Pay-Per-Click (PPC)? It is an online advertising model in which marketers bid on keywords. When an Amazon client conducts a product search, the sellers who submit the most incredible bids on relevant keywords win the auction. Their product ads appear in their selected location. We give you a full-time Amazon account manager to manage your PPC campaigns, ensuring that you achieve and even surpass your sales goals.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: ppc,
             alignclass: 'traficSholud',
             should: 'should'
@@ -128,7 +128,7 @@ export default function AmazonAuthor() {
             text: 'Our Amazon PPC experts create brand awareness and generate sales with the targeted ads. We select from a list of relevant terms with significant search traffic. We aim to develop a profitable and long-term partnership with you to take advantage of Amazon advertising campaigns tailored specifically for your Amazon business by increasing product searchability and the reach of your products.',
             text1: 'Contact our Amazon marketing professionals to build a solid online presence and achieve your goals.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             alignclass: 'traficSholud',
             should: 'should'
         }
@@ -140,7 +140,7 @@ export default function AmazonAuthor() {
             title: convTitle,
             text: 'Our clients love working with us because of our professionalism, guaranteed results, and affordable Amazon marketing services. If you are still not convinced, consider the following statistics:',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: convinced,
             convinced: 'convinced'
         }

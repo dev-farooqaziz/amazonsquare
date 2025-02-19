@@ -32,7 +32,7 @@ export default function AmazonServices() {
             </Link>
             <Link className={`${styles.btnW} btons btns btnWhite`} href="#">
                 <Image className='img-fluid call' src={call} alt='Amazon_Square' />
-                +1 (408) 689-7746
+                (012) 345 6789
             </Link>
         </div>
 
@@ -64,7 +64,7 @@ export default function AmazonServices() {
             cardHead3: 'Boost Sales Instantly',
             cardText3: 'AMZ Profs develops a customized marketing plan for businesses to increase traffic, sales, and revenues. We assist businesses in increasing sales through our effective marketing tactics.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             runner: 'runner'
         }
     ]

@@ -37,7 +37,7 @@ export default function AmazonAuthor() {
             </Link>
             <Link className={`${styles.btnB} btons btns btnBlack`} href="#">
                 <Image className={`${styles.call} img-fluid`} src={call} alt='Amazon_Square' />
-                +1 (408) 689-7746
+                (012) 345 6789
             </Link>
         </div>
 
@@ -67,7 +67,7 @@ export default function AmazonAuthor() {
             title: 'Amazon Book Publishing',
             subtext: 'We are here to make your dreams a reality! The process of publishing an eBook is challenging. Hire us to manage every step of your book publishing. Our group will finalize and publish your novel as a book on Amazon. Undoubtedly, it is difficult to publish an eBook. We can assist you with the work and support you in attaining the success you have always desired with the right direction and approach. In contrast to traditional publishing, which initially restricts your manuscript’s distribution to just one country, when you publish your book on Amazon with Amazon Profs, you may swiftly increase the distribution of your work throughout the world. Amazon publishing changed the game when access to the literary world was previously restricted to a small group of elites.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: publish1,
             should: 'should'
         }
@@ -81,7 +81,7 @@ export default function AmazonAuthor() {
             title: 'Amazon Book Publishing Services',
             text: 'Do you want to discover how to become a well-known author? You can`t seem to persuade a publisher to publish your books? Stop worrying about it now that Amazon Book Publishing services are at your fingertips, allowing you to become a well-known author quickly and effortlessly!',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             should: 'should'
         }
     ]
@@ -124,7 +124,7 @@ export default function AmazonAuthor() {
             subtext: 'WSince its inception in 2007, the service has gradually grown in popularity, but the number of authors has recently surged dramatically, making it a tough and competitive platform. Because a lack of knowledge and expertise in dealing with competition can cause you to lose potential clients, using our services and allowing Amazon Market to assist you with your book publication will allow you to grow and learn.',
             text1: 'Sell On line’s highly motivated and experienced Amazon publishing experts will pave the route for your business to develop globally and instantaneously. Within minutes, your book will be the first pick of thousands! Prepare for a thrilling rollercoaster ride with Amazon book publishing!',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             should: 'should'
         }
     ]
@@ -135,7 +135,7 @@ export default function AmazonAuthor() {
             title: convTitle,
             text: 'We will help the writers to overcome the hassle with our result-oriented approach. Over the years, we have assisted writers helping them to get approved on Amazon and publish their books the right way.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: convinced,
             convinced: 'convinced'
         }

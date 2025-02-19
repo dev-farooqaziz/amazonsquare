@@ -212,7 +212,7 @@ const Header = () => {
                                                         </Link> */}
                                                         </div>
                                                     </li>
-                                                </ul>
+                                                </ul> 
                                             </div>
                                         </Col>
 
@@ -238,19 +238,19 @@ const Header = () => {
                                 </li>
 
                                 <li className={styles.navLinks}>
-                                    <Link className={currentRoute === "/about"
-                                        ? "active" : "menuLinks"} href="/about">About Us</Link>
+                                    <Link className={currentRoute === "javascript:;"
+                                        ? "active" : "menuLinks"} href="javascript:;">About Us</Link>
                                 </li>
 
                                 <li className={styles.navLinks}>
-                                    <Link className={currentRoute === "/contact"
-                                        ? "active" : "menuLinks"} href="/contact">Contact</Link>
+                                    <Link className={currentRoute === "javascript:;"
+                                        ? "active" : "menuLinks"} href="javascript:;">Contact</Link>
                                 </li>
 
                                 <li className={`${styles.headerTel}`}>
-                                    <Link className={`${styles.btnT} btns btons btnTrans btnBlThm`} href="tel:+1 234 456 7890">
+                                    <Link className={`${styles.btnT} btns btons btnTrans btnBlThm`} href="tel:0123456789">
                                         <Image className='img-fluid call' src={call} alt='Amazon_Square' />
-                                        +1 234 456 7890
+                                        (012) 345 6789
                                     </Link>
                                 </li>
 

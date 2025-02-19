@@ -38,7 +38,7 @@ export default function AmazonMarketing() {
             </Link>
             <Link className={`${styles.btnW} btons btns btnSecond`} href="#">
                 <Image className='img-fluid call' src={call} alt='Amazon_Square' />
-                +1 (408) 689-7746
+                (012) 345 6789
             </Link>
         </div>
 
@@ -93,7 +93,7 @@ export default function AmazonMarketing() {
             textName: 'Porter Marcus',
             subtext: 'HEAD OF MARKETING',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             alignclass: 'cater',
             solutions: 'solutions'
         }
@@ -107,7 +107,7 @@ export default function AmazonMarketing() {
             subtext: 'Relevant keywords can assist you in acquiring traffic from Amazon`s real-time customer search requests. An optimized product listing with relevant keywords is more likely to be indexed and appear for search queries linked to your keywords in search results.',
             text1: 'The higher a product`s ranking in search results, the more sales it will generate. Use well-researched and high-performing keywords to boost the ranking of your products on search engines. Observe the OBVIOUS increase in your sales.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: crucial,
             should: 'should'
         }
@@ -123,7 +123,7 @@ export default function AmazonMarketing() {
             subtext: 'Selling on Amazon is all about using the right keywords and optimizing your listings. It improves indexing for a given search term by optimizing your products for Amazon`s search engine. The product listing obtains the greatest discoverability against your selected search term based on the keywords.',
             text4: 'By using the correct keywords, your listing will be able to "speak in your buyer`s language." Your product gets organically "discoverable" and consequently picked up by a prospective buyer by using the proper keywords in your Amazon product listing(s).',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             should: 'should'
         }
     ]
@@ -134,7 +134,7 @@ export default function AmazonMarketing() {
             title: convTitle,
             text: 'We have been in this business for over 20 years, maintaining an impressive record of improving products’ visibility by using the right keywords. Our keyword planning strategy has helped many businesses achieve superior conversion rates.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: convinced,
             convinced: 'convinced'
         }
@@ -147,7 +147,7 @@ export default function AmazonMarketing() {
             title: 'Deep Keyword Research',
             text: 'We make sure that interaction with the target market for your Amazon business is simple. When selling on Amazon, choosing the appropriate keywords and optimizing your listings are essential. Making your products Amazon-friendly for search engines improves indexing for a particular search phrase. The product listing achieves the most discoverability for your selected search term’s relevant Amazon backend keywords. If the appropriate keywords are employed, your listing will be able to “speak in your buyer’s language.” Including the right keywords in your Amazon product listing will make your item more easily “discovered” and hence more likely to be chosen by a potential consumer.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             formFold: 'formFold'
         }
     ]

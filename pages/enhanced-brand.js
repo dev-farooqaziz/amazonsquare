@@ -39,7 +39,7 @@ export default function AmazonAuthor() {
             </Link>
             <Link className={`${styles.btnW} btons btns btnWhite`} href="#">
                 <Image className='img-fluid call' src={call} alt='Amazon_Square' />
-                +1 (408) 689-7746
+                (012) 345 6789
             </Link>
         </div>
 
@@ -88,7 +88,7 @@ export default function AmazonAuthor() {
             title: 'Enhanced Brand Content',
             text1: 'Are you seeking ways to boost your items’ sales on Amazon? A+ Content, also known as Enhanced Brand Content, is the simplest way to do this. Get in touch with our Amazon content marketing company right away to start using this effective instrument. ',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: elevate,
             should: 'should'
         }
@@ -104,7 +104,7 @@ export default function AmazonAuthor() {
             text1: 'The A+ Page represents the brand on Amazon. And we know you rely upon a professional company for creating the website of your business or graphics. Amazon Square is here to build EBC content as per your demands. We have experience creating 2000+ Amazon EBC designs from scratch, and we take pride in calling ourselves "Pros.',
             text2: 'We have a team of creative designers and excellent copywriters with the skills required to develop high-quality Amazon A+ design that converts visitors into customers and beat the competition. Hiring our Amazon content marketing services will offer you peace of mind knowing that you will receive the highest quality of service within the time frame agreed upon.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: resonates,
             should: 'should'
         }
@@ -129,7 +129,7 @@ export default function AmazonAuthor() {
             title: convTitle,
             text: 'Our clients love working with us because of our professionalism, guaranteed results, and affordable Amazon marketing services. If you are still not convinced, consider the following statistics:',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: convinced,
             convinced: 'convinced'
         }

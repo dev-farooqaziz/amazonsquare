@@ -94,20 +94,20 @@ const Footer = () => {
                                 <h3 className='font-16 fw-500 font-second txt-prime'>Contact</h3>
                                 <ul className='p-0 m-0 mt-3 mt-lg-4'>
                                     <li>
-                                        <Link href="tel:+1 (408) 689-7746"
+                                        <Link href="tel:0123456789"
                                             className='font-14 fw-400 font-second txt-white'>
-                                            +1 (408) 689-7746
+                                            (012) 345 6789
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="mailto:sales@amzprofs.com"
+                                        <Link href="mailto:info@xyz.com"
                                             className='font-14 fw-400 font-second txt-white'>
-                                            sales@amzprofs.com
+                                            info@xyz.com
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="#" className='font-14 fw-400 font-second txt-white'>
-                                            123 E San Carlos St San Jose, CA 95112
+                                            Office abc street, New York
                                         </Link>
                                     </li>
                                     <li>

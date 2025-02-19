@@ -36,7 +36,7 @@ export default function AmazonAuthor() {
             </Link>
             <Link className={`${styles.btnS} btons btns btnSecond`} href="#">
                 <Image className={`${styles.call} img-fluid`} src={call} alt='Amazon_Square' />
-                +1 (408) 689-7746
+                (012) 345 6789
             </Link>
         </div>
 
@@ -83,7 +83,7 @@ export default function AmazonAuthor() {
             title: 'Our Amazon Author Page Development Services',
             subtext: 'Augment Your Exposure to Online Search Results.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: augment,
             alignclass: 'traficSholud',
             should: 'should'
@@ -97,7 +97,7 @@ export default function AmazonAuthor() {
             title: 'Want to Up your Game as an Author?',
             subtext: 'Your Amazon Author page is your profile page, where visitors can learn more about you, check out the books you`ve authored and published, and browse the library. As an Amazon writer, you should know how things work online, and the stiff competition that persists online as more writers join this incredible platform. Amazon Square is a top-notch Amazon author page creation company leading by example. We have set the bar high with our commitment and dedication to serving our clients like you. The experts in our team manage Amazon author page designing, keeping in view the short-term and long-term goals.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             alignclass: 'traficSholud',
             should: 'should'
         }
@@ -109,7 +109,7 @@ export default function AmazonAuthor() {
             title: convTitle,
             text: 'We will help the writers to overcome the hassle with our result-oriented approach. Over the years, we have assisted writers helping them to get approved on Amazon and publish their books the right way.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: convinced,
             convinced: 'convinced'
         }

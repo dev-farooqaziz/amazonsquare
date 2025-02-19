@@ -33,7 +33,7 @@ const Convinced = (props) => {
                                         <Link className={`${styles.btnP} btns btnPrime`} href="#">
                                             {props.foldDiscuss}
                                         </Link>
-                                        <Link className={`${styles.btnW} btons btns btnWhite`} href="tel:+1 (408) 689-7746">
+                                        <Link className={`${styles.btnW} btons btns btnWhite`} href="tel:0123456789">
                                             <Image className='img-fluid' src={call} alt='Amazon_Square' />
                                             {props.foldnumber}
                                         </Link>

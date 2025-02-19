@@ -25,12 +25,12 @@ const Questions = () => {
                         </Col>
                         <Col lg={6}>
                             <div className={styles.consultImg}>
-                                <Link href='tel:+1 (408) 689-7746'>
+                                <Link href='tel:0123456789'>
                                     <Image className='img-fluid'
                                         src={icon1}
                                         alt='Amazon_Square'
                                     />
-                                    +1 (408) 689-7746
+                                    (012) 345 6789
                                 </Link>
                                 <Link href='#'>
                                     <Image className='img-fluid'

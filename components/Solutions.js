@@ -61,7 +61,7 @@ const Solutions = (props) => {
                                     <Link className={`${styles.btnW} btns btnWhite`} href="#">
                                         {props.foldDiscuss}
                                     </Link>
-                                    <Link className={`${styles.btnS} btons btns btnSecond`} href="tel:+1 (408) 689-7746">
+                                    <Link className={`${styles.btnS} btons btns btnSecond`} href="tel:0123456789">
                                         <Image className='img-fluid' src={call} alt='Amazon_Square' />
                                         {props.foldnumber}
                                     </Link>

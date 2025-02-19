@@ -197,7 +197,7 @@ const Enhance = (props) => {
                                     <Link className='btns btnPrime' href="#">
                                         {props.foldDiscuss}
                                     </Link>
-                                    <Link className='btons btns btnSecond' href="tel:+1 (408) 689-7746">
+                                    <Link className='btons btns btnSecond' href="tel:0123456789">
                                         <Image className='img-fluid call' src={call} alt='Amazon_Square' />
                                         {props.foldnumber}
                                     </Link>

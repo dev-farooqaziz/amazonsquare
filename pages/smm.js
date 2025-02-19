@@ -39,7 +39,7 @@ export default function AmazonMarketing() {
             </Link>
             <Link className={`${styles.btnW} btons btns btnSecond`} href="#">
                 <Image className='img-fluid call' src={call} alt='Amazon_Square' />
-                +1 (408) 689-7746
+                (012) 345 6789
             </Link>
         </div>
 
@@ -74,7 +74,7 @@ export default function AmazonMarketing() {
             title: 'With Amazon SMM!',
             text: 'Amazon SMM is a tough gig, especially when only minimal branded marketing is permitted. So, why would Amazon do such a thing? The reason is brilliant – yet simple - Amazon strives to keep possession of its customers rather than handing them over to another platform! However, strategic Social Media Marketing allows you to build a loyal consumer base that will return to your store repeatedly rather than selling their loyalty to other brands.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: loyalty,
             should: 'should'
         }
@@ -108,7 +108,7 @@ export default function AmazonMarketing() {
             textName: 'William Joseph',
             subtext: 'VP of Branding Department',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             alignclass: 'specialists',
             solutions: 'solutions'
         }
@@ -125,7 +125,7 @@ export default function AmazonMarketing() {
             subtext1: 'Social media marketing is a hybrid method that starts with providing value to your consumers and gradually redirects visitors to make purchases using value-driven content and soft-selling techniques. Our Amazon experts will create a result-oriented Social Media Strategy that incorporates soft-selling strategies, sending high-quality, likely-to-convert leads to your Amazon store!',
             subtext2: '"As a professional Amazon SMM company, we give a blended PR recipe that will add a human touch to your product, what lifestyle it will offer to your potential consumers, and how your product improves their lives – life advice, interesting facts, how- to`s, and everything lovely."',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: solutions,
             should: 'should'
         }
@@ -140,7 +140,7 @@ export default function AmazonMarketing() {
             subtext: 'The more effective your marketing plan is, the more you can grow your consumer base and increase conversions. With such a large number of active sellers on Amazon, it takes more than Amazon SEO to establish a name for yourself, be noticed, and entice customers to purchase from your online store. It takes time for purchasers to come across your products and make a purchase; instead, cultivate an audience that wants to buy directly from you!',
             text: '"When you work with our Amazon social media marketing company, we develop engaging content with accurate and relevant information to answer and remedy frequent consumer issues while redirecting them to your business."',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             should: 'should'
         }
     ]
@@ -151,7 +151,7 @@ export default function AmazonMarketing() {
             title: convTitle,
             text: 'Our clients love working with us because of our professionalism, guaranteed results, and affordable Amazon marketing services. If you are still not convinced, consider the following statistics:',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: convinced,
             convinced: 'convinced'
         }

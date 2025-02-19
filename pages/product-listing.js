@@ -39,7 +39,7 @@ export default function AmazonMarketing() {
             </Link>
             <Link className={`${styles.btnW} btons btns btnSecond`} href="#">
                 <Image className='img-fluid call' src={call} alt='Amazon_Square' />
-                +1 (408) 689-7746
+                (012) 345 6789
             </Link>
         </div>
 
@@ -76,7 +76,7 @@ export default function AmazonMarketing() {
             subtext: 'One of the most critical aspects of the Amazon product listings that often get ignored is the choice of product images. For the product to compel the audience to open the listing, your listing needs captivating images that describe the items you are selling, provide the customers with the relevant information, and describe the condition of the items.',
             subtext1: 'Amazon square helps brands skyrocket their sales through optimized Amazon images and clearly demonstrates the benefits and features of the products to the buyers.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: unleash,
             should: 'should'
         }
@@ -109,7 +109,7 @@ export default function AmazonMarketing() {
             textName: 'Joshua Levine',
             subtext: 'Head of Amazon Marketing',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             alignclass: 'cater',
             solutions: 'solutions'
         }
@@ -125,7 +125,7 @@ export default function AmazonMarketing() {
             textbef: 'Images that accurately represent your product.',
             textbef2: 'Use of white background, accurate size, and minimal propping.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: efforts,
             should: 'should'
         }
@@ -141,7 +141,7 @@ export default function AmazonMarketing() {
             text2: 'One of the most important fundamentals of Amazon selling is having a solid product image optimization strategy that adheres to the Amazon product image criteria. As a leading Amazon product image optimization agency, we ensure that all of your product images are compliant with the Amazon standards and are optimized for discovery.',
             text3: 'The image that your listing consists of creates the first impression of your product to the user. It is the first thing that the potential customer notices, even before the product description. Hence, we optimize the product images using our immense image optimization knowledge to help businesses level up their Amazon search ranking game.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             should: 'should'
         }
     ]
@@ -152,7 +152,7 @@ export default function AmazonMarketing() {
             title: convTitle,
             text: 'Our clients love working with us because of our professionalism, guaranteed results, and affordable Amazon marketing services. If you are still not convinced, consider the following statistics:',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: convinced,
             convinced: 'convinced'
         }

@@ -45,9 +45,9 @@ const Visitors = () => {
                                     <Link className='btns btnPrime' href="#">
                                         Get a Quote
                                     </Link>
-                                    <Link className='btns btons btnSecond' href="tel:+1 (408) 689-7746">
+                                    <Link className='btns btons btnSecond' href="tel:0123456789">
                                         <Image className='img-fluid call' src={call} alt='Amazon_Square' />
-                                        +1 (408) 689-7746
+                                        (012) 345 6789
                                     </Link>
                                 </div>
                             </div>

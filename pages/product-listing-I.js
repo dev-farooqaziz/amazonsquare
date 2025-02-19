@@ -37,7 +37,7 @@ export default function AmazonMarketing() {
             </Link>
             <Link className={`${styles.btnW} btons btns btnSecond`} href="#">
                 <Image className='img-fluid call' src={call} alt='Amazon_Square' />
-                +1 (408) 689-7746
+                (012) 345 6789
             </Link>
         </div>
 
@@ -93,7 +93,7 @@ export default function AmazonMarketing() {
             textName: 'Kenneth Spencer',
             subtext: 'Vice President – Amazon Marketing',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             alignclass: 'cater',
             solutions: 'solutions'
         }
@@ -108,7 +108,7 @@ export default function AmazonMarketing() {
             subtext1: 'Customers use Amazon to look for products to buy. Our Amazon product listing writers take advantage of this by combining buyer persona and cutting-edge SEO techniques to boost conversion rates. As a result, hiring an Amazon copywriter might be helpful to your company in the long term.',
             text1: 'We create engaging content for product descriptions in a concise form, catering to all the common queries of the buyers to convert more leads into potential sales.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: profitable,
             should: 'should'
         }
@@ -128,7 +128,7 @@ export default function AmazonMarketing() {
             mintext2: 'A picture is worth 1000 words. Images can do what words can`t. When you hire AMZ Profs for your Amazon product listing development, we do not just focus on optimizing the listing; we also optimize the images so that your products show up on the top of search results.',
             text4: 'As a top Amazon product listing optimization company, we do everything it takes to get your products to get the deserved attention, attainable with keyword usage, compelling content creation, and product image optimization.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             should: 'should'
         }
     ]
@@ -139,7 +139,7 @@ export default function AmazonMarketing() {
             title: convTitle,
             text: 'Our clients love working with us because of our professionalism, guaranteed results, and affordable Amazon marketing services. If you are still not convinced, consider the following statistics:',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: convinced,
             convinced: 'convinced'
         }
@@ -153,7 +153,7 @@ export default function AmazonMarketing() {
             text: 'Being an Amazon seller, if you want to get your brand and products noticed by Amazon`s algorithm, you need to recognize the customers pain points and address these issues through your products. AMZ Profs can help you in this regard. As a top-rated Amazon services provider, we are well-aware of the intricacies of the Amazon platform, paying keen attention to details, and willing to keep up with the evolving algorithms. With a fully-optimized product listing, our Amazon product listing designing agency can push your product listing to the top of Amazon`s search results.',
             subtext: 'We know how to list your products to drive more sales and even get your product ranked as the best-selling product. We evolve as the guidelines change and stay relevant by curating an effective launch strategy that drives organic traffic. Putting up well-constructed listings increases the chances of the shoppers finding your product, explaining your product in detail that highlights the product`s best features and gives the potential buyers reason to buy your product.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             formFold: 'formFold'
         }
     ]

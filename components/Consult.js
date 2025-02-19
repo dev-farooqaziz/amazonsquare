@@ -30,7 +30,7 @@ const Consult = () => {
                                 </Link>
                                 <Link className={`${styles.btnS} btons btns btnSecond`} href="#">
                                     <Image className='img-fluid' src={call} alt='Amazon_Square' />
-                                    +1 (408) 689-7746
+                                    (012) 345 6789
                                 </Link>
                             </div>
                         </Col>

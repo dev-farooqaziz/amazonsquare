@@ -40,7 +40,7 @@ export default function AmazonMarketing() {
             </Link>
             <Link className={`${styles.btnW} btons btns btnSecond`} href="#">
                 <Image className='img-fluid call' src={call} alt='Amazon_Square' />
-                +1 (408) 689-7746
+                (012) 345 6789
             </Link>
         </div>
 
@@ -75,7 +75,7 @@ export default function AmazonMarketing() {
             title: 'Amazon A++ Marketing',
             text: 'The digital era is reviving and energizing the business, inspiring new concepts that help people by satisfying their needs and aspirations for success. The current hottest digital media trend is A++ Marketing, a plan emphasizing social responsibility while simultaneously aiming for long-term sustainability. A++ Marketing’s primary goal is to maintain and enhance the bonds between customers and sellers. To elevate your brand, use our unique Amazon A++ marketing services and solutions. In order to provide product merchandising the biggest possible boost, our knowledgeable team provides product information, 360-degree spin images, videos, and listings.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: wasting,
             wasting: 'wasting'
         }
@@ -109,7 +109,7 @@ export default function AmazonMarketing() {
             textName: 'Melanie Joshua',
             subtext: 'Lead Amazon Consultant',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             alignclass: 'cater',
             solutions: 'solutions'
         }
@@ -123,7 +123,7 @@ export default function AmazonMarketing() {
             title: 'A++ Marketing Solutions',
             subtext: 'Our Amazon A++ marketing agency assists thousands of sellers globally to make sustainable profits via steady sales. We take pride in promoting your brand, product, and services via social networking sites like Facebook, Linked In, Twitter, Pinterest, and other channels. This technique presents products to a targeted audience on these platforms. By providing you with A++ Marketing, Amazon Square emphasizes the specific requirements of the target audience.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: traffic,
             should: 'should'
         }
@@ -138,7 +138,7 @@ export default function AmazonMarketing() {
             subtext: 'Think again if you`re planning to get your sales through Amazon adverts. These adverts are quite expensive and yield no results. However, at A++ Marketing, we can assist you in saving money on such adverts.',
             text: 'Our Amazon A++ marketing experts, by utilizing optimum techniques, ensure that the product is visible to more onlookers and work on your brand to improve sales. Our Amazon A++ marketing firm helps the audience know your brand and make an informed decision to purchase your business.',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             should: 'should'
         }
     ]
@@ -149,7 +149,7 @@ export default function AmazonMarketing() {
             title: convTitle,
             text: 'Our clients love working with us because of our professionalism, guaranteed results, and affordable Amazon marketing services. If you are still not convinced, consider the following statistics:',
             foldDiscuss: 'Get A Quote',
-            foldnumber: '+1 (408) 689-7746',
+            foldnumber: '(012) 345 6789',
             imagfold: convinced,
             convinced: 'convinced'
         }

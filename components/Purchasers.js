@@ -75,7 +75,7 @@ const Purchasers = () => {
                                 </Link>
                                 <Link className={`${styles.btnW} btons btns btnWhite`} href="#">
                                     <Image className='img-fluid' src={call} alt='Amazon_Square' />
-                                    +1 (408) 689-7746
+                                    (012) 345 6789
                                 </Link>
                             </div>
                         </Col>
